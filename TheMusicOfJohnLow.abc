@@ -52,6 +52,8 @@
 %%barnumbers 5
 %%measurebox 0
 
+%%abc-charset utf-8
+
 X:1
 T:The Music of John Low
 %T:Miscatonic Symphony
@@ -62,7 +64,7 @@ T:The Music of John Low
 T:Vivace
 %C:Edgar Atkinsson
 %C:Waltham, MA - 1897
-C:H\aakan Lidén
+C:Håkan Lidén
 C:februari 2016
 Q:1/4=160
 M:C
