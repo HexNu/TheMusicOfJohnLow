@@ -66,30 +66,30 @@ T:Vivace
 %C:Waltham, MA - 1897
 C:Håkan Lidén
 C:februari 2016
-Q:1/4=160
+Q:"Vivace" 1/4=160
 M:C
 L:1/4
 K:Am
 %%scale 0.5
 %%%%%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [timp] | [{vl1 vl2} vla vlc]
-%%%%%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [timp] | [{vl1 vl2} vla vlc cb]
-%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [{vl1 vl2} vla vlc cb]
-%%MIDI program 1 73
+%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [timp] | [{vl1 vl2} vla vlc cb]
+%%%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [{vl1 vl2} vla vlc cb]
+%%MIDI program 1 73 %Flute
 %%MIDI program 2 73
-%%MIDI program 3 68
+%%MIDI program 3 68 %Oboe
 %%MIDI program 4 68
-%%MIDI program 5 71
+%%MIDI program 5 71 %Clarinet
 %%MIDI program 6 71
-%%MIDI program 7 70
+%%MIDI program 7 70 %Bassoon
 %%MIDI program 8 70
-%%MIDI program 9 60
+%%MIDI program 9 60 %French Horn
 %%MIDI program 10 60
-%%%%MIDI program 11 48
-%%MIDI program 11 40
-%%MIDI program 12 40
+%%MIDI program 11 47 %Timpani
+%%MIDI program 12 40 %Violin
 %%MIDI program 13 40
-%%MIDI program 14 40
-%%MIDI program 15 40
+%%MIDI program 14 41 %Viola
+%%MIDI program 15 42 %Cello
+%%MIDI program 16 43 %Contrabass
 %%%%%%%% WOODWIND
 %%%% FL 1
 V:fl1 nm="Flute 1 & 2" snm="Fl 1 & 2"
@@ -389,33 +389,33 @@ Z8 |
 Z8 |
 %
 %%%%%%%% TIMPANI
-%V:timp clef=basso nm="Timpani" snm="Tmp"
+V:timp clef=basso nm="Timpani" snm="Tmp"
 %PAGE 1
-%Z6 | 
+Z6 | 
 %PAGE 2
-%Z7 |
+Z7 |
 %PAGE 3
-%Z7 |
+Z7 |
 %PAGE 4
-%Z6 | !pp!!trill!!trill(!E,4- |
+Z6 | !pp!!trill!!trill(!E,4- |
 %PAGE 5
-%!<(!E,4- | E,4 !<)!| !sfz!"_ $2l. v."!trill)!A,,2 z2 | Z | !f!"_ $2l. v."A,,2 z2 | Z | D,2 E,2 |
+!<(!E,4- | E,4 !<)!| !sfz!"_ $2l. v."!trill)!A,,2 z2 | Z | !f!"_ $2l. v."A,,2 z2 | Z | D,2 E,2 |
 %PAGE 6
-%A,,4 | D,2 z2 | E, E,/>E,/ E, E, | !sfz!!mp!!<(!!trill!!trill(!(A,,4 | !<)!!f!"_ $2l. v."!trill)!A,,2) z2 | Z2 | 
+A,,4 | D,2 z2 | E, E,/>E,/ E, E, | !sfz!!mp!!<(!!trill!!trill(!(A,,4 | !<)!!f!"_ $2l. v."!trill)!A,,2) z2 | Z2 | 
 %PAGE 7
-%Z3 | !mf!!trill!!trill(!!<(!E,2- !<)!!>(!E,2-  | !>)!!ppp!"_ $2l. v."!trill)!E,2 z2 | Z2 |
+Z3 | !mf!!trill!!trill(!!<(!E,2- !<)!!>(!E,2-  | !>)!!ppp!"_ $2l. v."!trill)!E,2 z2 | Z2 |
 %PAGE 8
-%Z |!trill!y!trill(!!pppp!!<(!E,4- | E,4- !<)!|!pp!!>(!E,4- | E,2- !>)!!pppp!!trill)!E, z | Z4 |
+Z |!trill!y!trill(!!pppp!!<(!E,4- | E,4- !<)!|!pp!!>(!E,4- | E,2- !>)!!pppp!!trill)!E, z | Z4 |
 %PAGE 9
-%!trill!!trill(!D,4- | D,4- | D,4- | !trill)!D,"_ $2l. v." z3 | Z4 |
+!trill!!trill(!D,4- | D,4- | D,4- | !trill)!D,"_ $2l. v." z3 | Z4 |
 %PAGE 10
-%Z8 |
+Z8 |
 %PAGE 11
-%Z8 |
+Z8 |
 %PAGE 12
-%Z8 |
+Z8 |
 %PAGE 13
-%Z8 |
+Z8 |
 %%%%%%%% STRINGS
 %%%% VL 1
 V:vl1 nm="Violins 1 & 2" snm="Vl 1 & 2"
