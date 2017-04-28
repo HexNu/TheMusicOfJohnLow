@@ -32,6 +32,10 @@
 %%deco sp 6 pf 20 0 0 sp
 %%deco niente 6 pf 20 0 0 niente
 
+%%%%% The following is used for printing in A3 format (297 mm x 420 mm):
+%%% %%pageheight 42cm
+%%% %%pagewidth 29.7cm
+%%% %%pagescale 2
 
 %%setfont-1 Bookman-LightItalic 18
 %%setfont-2 Times-LightItalic 15
@@ -65,15 +69,15 @@ T:Vivace
 %C:Edgar Atkinsson
 %C:Waltham, MA - 1897
 C:Håkan Lidén
-C:februari 2016
-Q:"Vivace" 1/4=160
+C:maj 2017
+Q:"Vivace    " 1/4=160
 M:C
 L:1/4
 K:Am
 %%scale 0.5
-%%%%%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [timp] | [{vl1 vl2} vla vlc]
+%%%%% The following is used for printing in A3 format:
+%%% %%scale 0.65
 %%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [timp] | [{vl1 vl2} vla vlc cb]
-%%%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [{vl1 vl2} vla vlc cb]
 %%MIDI program 1 73 %Flute
 %%MIDI program 2 73
 %%MIDI program 3 68 %Oboe
@@ -95,7 +99,6 @@ K:Am
 V:fl1 nm="Flute 1 & 2" snm="Fl 1 & 2"
 %PAGE 1
 Z6 | 
-%%footer "	$P	"
 %PAGE 2
 Z4 |"^ $115\''" Z3 |
 %PAGE 3
@@ -519,7 +522,7 @@ Z4 | !p!!upbow!((B,4-!<(! | B,2 C2) |!<)!!mf!!>(! (C4 | B,3))!>)!!p! z |
 %PAGE 12
 Z4 | A c2 B | AE Bd | cc Bd | cA Bd |
 %PAGE 13
-ce ^f^g | ba ee | g3 g | g^f ec | c3 g | g^f ec | c3 d | dc eg |
+ce ^f^g | ba ee | =g3 g | g^f ec | c3 g | g^f ec | c3 d | dc eg |
 %PAGE 14
 ba gb | a c2 g | g A2 ^f | e A2 d | cE BA | G^F ^f3/2^A/ | ^A2 B2- | B2 "^ $2div."c2 & x2 A2 |
 %PAGE 15
