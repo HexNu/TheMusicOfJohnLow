@@ -78,6 +78,8 @@ K:Am
 %%%%% The following is used for printing in A3 format:
 %%% %%scale 0.65
 %%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [timp] | [{vl1 vl2} vla vlc cb]
+%%% Use following to get best # of midi channels:
+%%%%staves [{fl1 fl2} {ob1 ob2} {cl1 cl2} {fg1 fg2}] | [{cr1 cr2}] | [{vl1 vl2} vla vlc cb]
 %%MIDI program 1 73 %Flute
 %%MIDI program 2 73
 %%MIDI program 3 68 %Oboe
@@ -91,9 +93,15 @@ K:Am
 %%MIDI program 11 47 %Timpani
 %%MIDI program 12 40 %Violin
 %%MIDI program 13 40
-%%MIDI program 14 41 %Viola
-%%MIDI program 15 42 %Cello
-%%MIDI program 16 43 %Contrabass
+%%MIDI program 14 40 %Viola
+%%MIDI program 15 40 %Cello
+%%MIDI program 16 40 %Contrabass
+%%% Use following to get best # of midi channels:
+%%%MIDI program 11 40 %Violin
+%%%MIDI program 12 40
+%%%MIDI program 13 40 %Viola
+%%%MIDI program 14 40 %Cello
+%%%MIDI program 15 40 %Contrabass
 %%%%%%%% WOODWIND
 %%%% FL 1
 V:fl1 nm="Flute 1 & 2" snm="Fl 1 & 2"
@@ -214,9 +222,13 @@ AF FG | (EG) (ce) | ^d>d BA | ^G3) z | !p!!<(!^G4- | (G2 (A2) |!<)!!mf! !>(!^G4)
 %PAGE 8
 G3 !>)!!pp!z | Z8 |
 %PAGE 9
-Z3 |"^ $2Eng. horn (in C)" z2 !mf!(D2 | d3!<(! c | BG ce |!<)!!f! d2!>(! ec | !>)!!mf!B2) (dB | 
+Z3 |"^ $2Eng. horn"[K:G transpose=-7] z2 !mf!(A2 | a3!<(! g | fd gb |!<)!!f! a2!>(! bg | !>)!!mf!f2) (af | %PAGE 10
+%%% Use following to get best # of midi channels:
+%Z3 |"^ $2Eng. horn (in C)" z2 !mf!(D2 | d3!<(! c | BG ce |!<)!!f! d2!>(! ec | !>)!!mf!B2) (dB | 
 %PAGE 10
-A B2 G | ^FA GE | DE E^F | !>(!D3)!>)!!p! z | Z4 | 
+e f2 d | ^ce dB | AB B^c | !>(!A3)!>)!!p! z | Z4 | 
+%%% Use following to get best # of midi channels:
+%A B2 G | ^FA GE | DE E^F | !>(!D3)!>)!!p! z | Z4 | 
 %PAGE 11
 Z8 |
 %PAGE 12
@@ -442,7 +454,7 @@ Z6 | !pp!!trill!!trill(!E,4- |
 %PAGE 6
 A,,4 | D,2 z2 | E, E,/>E,/ E, E, | !sfz!!mp!!<(!!trill!!trill(!(A,,4 | !<)!!f!"_ $2l. v."!trill)!A,,2) z2 | Z2 | 
 %PAGE 7
-Z3 | !mf!!trill!!trill(!!<(!E,2- !<)!!>(!E,2-  | !>)!!ppp!"_ $2l. v."!trill)!E,2 z2 | Z2 |
+Z3 | !mf!!<(!!trill!!trill(!E,2- !<)!!>(!E,2-  | !>)!!ppp!"_ $2l. v."!trill)!E,2 z2 | Z2 |
 %PAGE 8
 Z |!trill!y!trill(!!pppp!!<(!E,4- | E,4- !<)!|!pp!!>(!E,4- | E,2- !>)!!pppp!!trill)!E, z | Z4 |
 %PAGE 9
@@ -525,8 +537,12 @@ Z4 | A c2 B | AE Bd | cc Bd | cA Bd |
 ce ^f^g | ba ee | =g3 g | g^f ec | c3 g | g^f ec | c3 d | dc eg |
 %PAGE 14
 ba gb | a c2 g | g A2 ^f | e A2 d | cE BA | G^F ^f3/2^A/ | ^A2 B2- | B2 "^ $2div."c2 & x2 A2 |
+%%% Use following to get best # of midi channels:
+%ba gb | a c2 g | g A2 ^f | e A2 d | cE BA | G^F ^f3/2^A/ | ^A2 B2- | B2 "^ $2div."c2 |
 %PAGE 15
 c2 B2 &A2 B2 |[c4^F4] | [A4^F4]- | [A4F4]- | [A4F4] | [^G4D4] |"^ $2unis." (C/E/C/E/) (C/E/C/E/) | (C/E/C/E/) (C/E/C/E/) |]
+%%% Use following to get best # of midi channels:
+%c2 B2 |^F4 | A4- | A4- | A4 | D4 |"^ $2unis." (C/E/C/E/) (C/E/C/E/) | (C/E/C/E/) (C/E/C/E/) |]
 %
 %%%% VLA
 V:vla clef=alto nm="Violas" snm="Vla"
@@ -538,8 +554,12 @@ V:vla clef=alto nm="Violas" snm="Vla"
 %PAGE 3
 !mf!(G,/C/G,/C/) (G,/C/G,/C/) | (B,/D/B,/D/) (B,/D/B,/D/) | !<(!(A,/C/A,/C/) (A,/C/A,/C/) | !<)!(A,/!>(!B,/A,/B,/) (A,/B,/A,/B,/) | (^G,/B,/G,/B,/!>)!!p!G,) z |\
 !mf!!<(!!tenuto![EB,] !tenuto![EB,]2 !tenuto![EB,] | !<)!!f!!tenuto![EB,]([EB,] [EA,])!tenuto![EA,] |
+%%% Use following to get best # of midi channels:
+%!mf!!<(!!tenuto!B, !tenuto!B,2 !tenuto!B, | !<)!!f!!tenuto!B,(B, E)!tenuto!E |
 %PAGE 4
 !tenuto![EB,] !tenuto![EB,]2 !tenuto!!upbow![EB,] | !>(![EB,]3 !>)!!p!z | Z2 | z3 !p!!<(!(A, | !<)!!>(!E,3) !>)!z | z3 !p!B,- |
+%%% Use following to get best # of midi channels:
+%!tenuto!B, !tenuto!B,2 !tenuto!!upbow!B, | !>(!B,3 !>)!!p!z | Z2 | z3 !p!!<(!(A, | !<)!!>(!E,3) !>)!z | z3 !p!B,- |
 %PAGE 5
 !<(!B, (!tenuto!B,2 !tenuto!B,) | B,!<)! !f!!tenuto!E, !tenuto!E, (E, | (E>F) (EC) | (A,2 E))(E | (FE) (!tenuto!D!tenuto!G) | E3) (E | DD B,E |
 %PAGE 6
@@ -562,6 +582,8 @@ A^G AB | dc A^G | B3 B | BA =GE | A3 B | BA GE | A3 B |[V:vla clef=treble] BA ce
 g^f eg | ^fA2 e |[V:vla clef=alto] e^F2 d | c E2 B | AC G^F | ED c3/2^F/ | ^F2 G2- | G2 ^F2 |
 %PAGE 15
 ^F2 D2 |"^ $2div." D4- & A,4- | D4 & A,2 C2 | [^D4B,4]- | [D4B,4] | [E4B,4] |"^ $2unis." (A,/C/A,/C/) (A,/C/A,/C/) | (A,/C/A,/C/) (A,/C/A,/C/) |]
+%%% Use following to get best # of midi channels:
+%^F2 D2 |"^ $2div." A,4- | A,2 C2 | ^D4- | D4 | B,4 |"^ $2unis." (A,/C/A,/C/) (A,/C/A,/C/) | (A,/C/A,/C/) (A,/C/A,/C/) |]
 %
 %%%% VLC
 V:vlc clef=basso nm="Violoncellos" snm="Vlc"
