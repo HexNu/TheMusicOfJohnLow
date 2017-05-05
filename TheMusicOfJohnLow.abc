@@ -162,9 +162,11 @@ Z8 |
 %PAGE 10
 Z8 |
 %PAGE 11
-Z4 | z2 !mf!D2 | G3 ^F | EG ^FA | G2 BG |
+Z8 |
+%Z4 | z2 !mf!D2 | G3 ^F | EG ^FA | G2 BG |
 %PAGE 12
-A^c eg | ^fa2 A- | Ag e^c | d3 z | Z4 |
+Z8 |
+%A^c eg | ^fa2 A- | Ag e^c | d3 z | Z4 |
 %PAGE 13
 Z8 |
 %PAGE 14
@@ -191,17 +193,13 @@ AF FG | (EG) (ce) | ^d>d BA | ^G3) z | !p!!<(!^G4- | (G2 (A2) |!<)!!mf! !>(!^G4)
 %PAGE 8
 G3 !>)!!pp!z | Z8 |
 %PAGE 9
-Z3 |"^ $2Eng. horn"[K:G transpose=-7] z2 !mf!(A2 | a3!<(! g | fd gb |!<)!!f! a2!>(! bg | !>)!!mf!f2) !<(!(af | %PAGE 10
-%%% Use following to get best # of midi channels:
-%Z3 |"^ $2Eng. horn (in C)" z2 !mf!(D2 | d3!<(! c | BG ce |!<)!!f! d2!>(! ec | !>)!!mf!B2) (dB | 
+Z3 |"^ $2Eng. horn"[K:G transpose=-7] z2 !mf!(A2 | a3!<(! g | fd gb |!<)!!f! a2!>(! bg | !>)!!mf!f2) !<(!(af |
 %PAGE 10
 e f2 d |!<)! ^ce dB |!>(! AB B^c | A3)!>)!!p! z | Z4 | 
-%%% Use following to get best # of midi channels:
-%A B2 G | ^FA GE | DE E^F | !>(!D3)!>)!!p! z | Z4 | 
 %PAGE 11
-Z8 |
+Z5 | z ABd | ^c2 ec | d2 fd |
 %PAGE 12
-Z8 |
+^cedB | AEFD | ^CD E2 | ^C2 z2 | Z4 |
 %PAGE 13
 Z8 |
 %PAGE 14
