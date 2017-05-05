@@ -1,7 +1,7 @@
 # The Music of John Low
 
-The music for a part of the movie The Music of John Low, scored for a small 
-symphony orchestra.
+*The music for a part of the movie The Music of John Low, scored for a small 
+symphony orchestra.*
 
 The theme is a melody that John Low heared and played as a child. It is, for
 him, strongly associated with the trauma around his mother's death.
