@@ -59,18 +59,18 @@ K:Am
 %%MIDI program 8 70
 %%MIDI program 9 60 %French Horn
 %%MIDI program 10 60
-%%MIDI program 11 47 %Timpani
-%%MIDI program 12 40 %Violin
-%%MIDI program 13 40
-%%MIDI program 14 40 %Viola
-%%MIDI program 15 40 %Cello
-%%MIDI program 16 40 %Contrabass
+%%M%IDI program 11 47 %Timpani
+%%%MIDI program 12 40 %Violin
+%%%MIDI program 13 40
+%%%MIDI program 14 40 %Viola
+%%%MIDI program 15 40 %Cello
+%%%MIDI program 16 40 %Contrabass
 %%% Use following to get best # of midi channels:
-%%%MIDI program 11 40 %Violin
-%%%MIDI program 12 40
-%%%MIDI program 13 40 %Viola
-%%%MIDI program 14 40 %Cello
-%%%MIDI program 15 40 %Contrabass
+%%MIDI program 11 40 %Violin
+%%MIDI program 12 40
+%%MIDI program 13 40 %Viola
+%%MIDI program 14 40 %Cello
+%%MIDI program 15 40 %Contrabass
 %%%%%%%% WOODWIND
 %%%% FL 1
 V:fl1 nm="Flute 1 & 2" snm="Fl 1 & 2"
