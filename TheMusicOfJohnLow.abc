@@ -101,7 +101,7 @@ z/ !p!(a/b/^c'/ d'/e'/^f'/g'/ | a'/g'/e'/^c'/ a/g/e/^c/ | d/e/^f/g/ a/b/a/^c'/ |
 %Z | z2 !pp!_B2- | B2 A2 | Z5 |
 Z6 | z a ^g b | a e ^g b |
 %PAGE 13
-a4- | "^ $12'15\''" a2 z2 | z c'2 c' | c'2 z2 | z c'2 c' | c'2 z2 | z c'2 c' | c'2 z2 | 
+a4- | "^ $12'15\''" a2 z2 | z !p!c'2 c' | c'2 z2 | z !pp!c'2 c' | c'2 z2 | Z2 | 
 %PAGE 14
 Z3 | "^ $12'30\''" Z5 |
 %PAGE 15
@@ -134,7 +134,7 @@ Z7 |"^ $2Picc." z [V:fl2 transpose=12]!mf!(g ea |
 %PAGE 12
 Z | z2 !pp!_B2- | B2 A2 | Z3 | e4- | e2 d2 |
 %PAGE 13
-c4- | c2 z2 | z a2 a | a2 z2 | z a2 a | a2 z2 | z a2 a | a2 z2 |
+c4- | c2 z2 | z !p!a2 a | a2 z2 | z !pp!a2 a | a2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -170,7 +170,7 @@ Z | z2 !pp!_B2- | B2 A2 | Z3 | e4- | e2 d2 |
 %Z8 |
 %A^c eg | ^fa2 A- | Ag e^c | d3 z | Z4 |
 %PAGE 13
-c4- | c2 z2 | z e2 e | e2 z2 | z e2 e | e2 z2 | z e2 e | e2 z2 |
+c4- | c2 z2 | z !p!e2 e | e2 z2 | z !pp!e2 e | e2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -203,7 +203,7 @@ Z5 | z !mf!ABd | ^c2 A2- | A G F D |
 %PAGE 12
 E2 d2 | e4- | e d d B | ^c2 z2 | Z | z G2 F | G2 E2 | e2 ^d2 |
 %PAGE 13
-e4- | e2 z2 | z d2 d | d2 z2 | z d2 d | d2 z2 | z d2 d | d2 z2 |
+e4- | e2 z2 | z !p!d2 d | d2 z2 | !pp!z e2 e | e2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -236,7 +236,7 @@ Z3 | !p!!<(!(^GA B^B | c)!<)! !mf!(e2 d | cA df | e^g ^eg | f)(a fb |
 %PAGE 12
 f/^d/B/A/ F/^D/B,/D/ | E/F/^G/B/ e/^g/b/c'/ | ^d'/e'/d'/c'/ b/f/^d/f/ | ^g z3 | Z | z B,2 ^A, | B,2 F2 | d B c e | 
 %PAGE 13
-d4- | d2 z2 | z c2 c | c2 z2 | z c2 c | c2 z2 | z c2 c | c2 z2 |
+d4- | d2 z2 | z !p!c2 c | c2 z2 | z !pp!B2 B | B2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -269,7 +269,7 @@ e^g af | ^dB F^D | ECB,A, | ^G,3) z | Z3 | z2 !p!a/^g/f/e/ |
 %PAGE 12
 ^d/B/A/F/ ^D/B,/A,/B,/ | ^G,/B,/E/^G/ B/e/^g/a/ | b/c'/b/a/ f/^d/B/d/ | e z3 | Z2 | d2 c2 | B2 ^A2 | 
 %PAGE 13
-B4- | B2 z2 | z A2 A | A2 z2 | z A2 A | A2 z2 | z A2 A | A2 z2 |
+B4- | B2 z2 | z !p!A2 A | A2 z2 | z !pp!F2 F | F2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -302,7 +302,7 @@ A,2 G,2- | G,2 E,2 | ^F,2 G,E, | D,3 z | Z4 |
 %PAGE 12
 Z4 | z A,2 ^G, | A,2 E,2 | C,2 D,B,, | C,2 E,2 |
 %PAGE 13
-A,4- | A,2 z2 | z C2 C | C2 z2 | z C2 C | C2 z2 | z C2 C | C2 z2 |
+A,4- | A,2 z2 | z !p!C2 C | C2 z2 | z !pp!C2 C | C2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -335,7 +335,7 @@ D,2 E,2 | A,,4 | D,2 A,,2 | D,3 z | Z4 |
 %PAGE 12
 Z4 | z2 E,2 | A,,2 B,,2 | A,,2 E,,2 | A,,2 B,,2 |  
 %PAGE 13
-C,4- | C,2 z2 | z E,2 E, | E,2 z2 | z E,2 E, | E,2 z2 | z E,2 E, | E,2 z2 |
+C,4- | C,2 z2 | z !p!E,2 E, | E,2 z2 | z !pp!E,2 E, | E,2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -369,7 +369,7 @@ A2 F2 | ^G4 | A2 B2 | ^c3 z | Z3 | z2 f2 |
 %PAGE 12
 e f2 d | ^c e d B | A B B e | A3 z | z2 b2- | b4- | b2 a2 | g2 f2 |
 %PAGE 13
-e4- | e2 z2 | z e2 e | e2 z2 | z e2 e | e2 z2 | z e2 e | e2 z2 |
+e4- | e2 z2 | z !p!e2 e | e2 z2 | z !pp!e2 e | e2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -402,7 +402,7 @@ Z4 | !p!(F3 E | D4 | !<(!^C2 F2- | !<)!!mf!F2) z2 |
 %PAGE 12
 ^c d2 B | A ^c B E | ^C2 E2 | A,2 z2 | E2 F2 | G2 A2 | B2 ^c ^d | e2 B2 |
 %PAGE 13
-E4- | E2 z2 | z E2 E | E2 z2 | z E2 E | E2 z2 | z E2 E | E2 z2 |
+E4- | E2 z2 | z !p!E2 E | E2 z2 | z !pp!E2 E | E2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -427,7 +427,7 @@ Z3 | !mf!!<(!!trill!!trill(!E,2- !<)!!f!!>(!E,2-  | !>)!!ppp!"_ $2l. v."!trill)!
 %PAGE 8
 Z |!trill!y!trill(!!pppp!!<(!E,4- | E,4- !<)!|!pp!!>(!E,4- | E,2- !>)!!pppp!!trill)!E, z | Z4 |
 %PAGE 9
-!trill!!trill(!D,4- | D,4- | D,4- | !trill)!D,"_ $2l. v." z3 | Z4 |
+!trill!!trill(!D,4- | D,4- | D,4- | !trill)!"_ $2l. v."D, z3 | Z4 |
 %PAGE 10
 Z8 |
 %PAGE 11
@@ -437,9 +437,9 @@ Z8 |
 %PAGE 13
 Z8 |
 %PAGE 14
-Z8 |
+!ppp!!trill!!trill(!E,4- | E,4- | E,4- | E,4- | !trill)!"_ $2l. v."E,2 z2 | z2 !p!D,2 | "_ $2l. v."G,,2 z2 | z2 D,2 |
 %PAGE 15
-Z8 |]
+"_ $2l. v."G,,2 z2 | Z4 | !p!!<(!!trill!!trill(!E,2-!<)!!mf!!>(!yE,2!trill)!!>)!| !p!"_ $2l. v."A,,2 z2 | Z |]
 %
 %%%%%%%% STRINGS
 %%%% VL 1
