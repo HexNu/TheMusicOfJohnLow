@@ -105,7 +105,7 @@ a4- | "^ $12'15\''" a2 z2 | z !p!c'2 c' | c'2 z2 | z !pp!c'2 c' | c'2 z2 | Z2 |
 %PAGE 14
 Z3 | "^ $12'30\''" Z5 |
 %PAGE 15
-Z5 | "^ $12'45\''" Z3 |]
+z2 (g/d/B/A/ | G) z3 | z2 (A/B/d/^f/| a/b/^d'/^f'/ a'/^g'/f'/e'/ | ^d'/b/a/^f/ ^d) z |"^ $12'45\''" Z3 |]
 %
 %%%% FL 2
 V:fl2
@@ -138,7 +138,7 @@ c4- | c2 z2 | z !p!a2 a | a2 z2 | z !pp!a2 a | a2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
-Z8 |]
+Z2 | z2 (A/B/d/^f/| a/b/^d'/^f'/ a'/^g'/f'/e'/ | ^d'/b/a/^f/ ^d) z | Z3 |]
 %
 %%%% OB 1
 V:ob1 nm="Oboe 1 & 2" snm="Ob 1 & 2"
@@ -174,7 +174,7 @@ c4- | c2 z2 | z !p!e2 e | e2 z2 | z !pp!e2 e | e2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
-Z8 |]
+(G/A/c/_e/ g) z | Z7 |]
 %
 %%%% OB2
 V:ob2
@@ -205,7 +205,7 @@ E2 d2 | e4- | e d d B | ^c2 z2 | Z | z G2 F | G2 E2 | e2 ^d2 |
 %PAGE 13
 e4- | e2 z2 | z !p!d2 d | d2 z2 | !pp!z e2 e | e2 z2 | Z2 |
 %PAGE 14
-Z8 |
+Z4 | z2 ((d ^c | B A) (g>^c) | (^c2 d2- | d2)) z2 |
 %PAGE 15
 Z8 |]
 %
@@ -240,7 +240,7 @@ d4- | d2 z2 | z !p!c2 c | c2 z2 | z !pp!B2 B | B2 z2 | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
-Z8 |]
+Z2 | (B/d/e/^g/ b/d'/e'/d'/ | c') z3 | Z4 |]
 %
 %%%% CL 2
 V:cl2 transpose=-2
@@ -271,9 +271,9 @@ e^g af | ^dB F^D | ECB,A, | ^G,3) z | Z3 | z2 !p!a/^g/f/e/ |
 %PAGE 13
 B4- | B2 z2 | z !p!A2 A | A2 z2 | z !pp!F2 F | F2 z2 | Z2 |
 %PAGE 14
-Z8 |
+Z7 | z2 (B,/D/E/^G/ |
 %PAGE 15
-Z8 |]
+A) z3 |  z2 (B,/D/E/^G/ | B) z3 | Z5 |]
 %
 %%%% FG 1
 V:fg1 clef=basso nm="Bassoon 1 & 2" snm="Bsn 1 & 2"
@@ -304,9 +304,9 @@ Z4 | z A,2 ^G, | A,2 E,2 | C,2 D,B,, | C,2 E,2 |
 %PAGE 13
 A,4- | A,2 z2 | z !p!C2 C | C2 z2 | z !pp!C2 C | C2 z2 | Z2 |
 %PAGE 14
-Z8 |
+Z7 | (G,,/C,/_E,/G,/ A,) z |
 %PAGE 15
-Z8 |]
+Z | (G,,/C,/_E,/G,/ A,) z | Z6 |]
 %
 %%%% FG 2
 V:fg2 clef=basso
@@ -337,9 +337,9 @@ Z4 | z2 E,2 | A,,2 B,,2 | A,,2 E,,2 | A,,2 B,,2 |
 %PAGE 13
 C,4- | C,2 z2 | z !p!E,2 E, | E,2 z2 | z !pp!E,2 E, | E,2 z2 | Z2 |
 %PAGE 14
-Z8 |
+Z6 | (G,,/^F,,/G,,/F,,/ G,,/F,,/G,,/F,,/ | G,,) z3 |
 %PAGE 15
-Z8 |]
+(G,,/^F,,/G,,/F,,/ G,,/F,,/G,,/F,,/ | G,,) z3 | Z6 |]
 %
 %%%%%%%% BRASS
 %%%% CR 1
@@ -371,7 +371,7 @@ e f2 d | ^c e d B | A B B e | A3 z | z2 b2- | b4- | b2 a2 | g2 f2 |
 %PAGE 13
 e4- | e2 z2 | z !p!e2 e | e2 z2 | z !pp!e2 e | e2 z2 | Z2 |
 %PAGE 14
-Z8 |
+Z | z2 b2- | b z g2- | g z e2- | e z d2- | d z ^c2 | (^c2 d2- | d2) z2 |
 %PAGE 15
 Z8 |]
 %
@@ -404,7 +404,7 @@ Z4 | !p!(F3 E | D4 | !<(!^C2 F2- | !<)!!mf!F2) z2 |
 %PAGE 13
 E4- | E2 z2 | z !p!E2 E | E2 z2 | z !pp!E2 E | E2 z2 | Z2 |
 %PAGE 14
-Z8 |
+Z | z2 B2- | B z G2- | G z E2- | E z D2- | D z ^E2 | (^E2 ^F2- | F2) z2 |
 %PAGE 15
 Z8 |]
 %
@@ -577,13 +577,15 @@ Z3 | !pp!"^ $2pizz."D,2 z2 | "^ $2arco"!p!!upbow!!<(!(G,,4- | G,,4 | !<)!!mf!!>(
 %PAGE 10
 !<(!A,,2 (B,,^C,) | !<)!!mf!(D,2 G,2) | !>(!(A,2 A,,2) | D,3)!>)!!pp! z | !p!(G,,/^F,,/G,,/F,,/) (G,,/F,,/G,,/F,,/) | (G,,/^F,,/G,,/A,,/) (B,,/A,,/B,,/C,/) | (D,/E,/^F,/G,/) (A,/B,/^C/^D/ | E) z3 |
 %PAGE 11
-Z3 | z2[V:vlc clef=tenor] D2 | d3 c | BG ce | d2 ec | B2 dB |  
+Z3 | z2[V:vlc clef=treble] D2 | d3 c | BG ce | d2 ec | B2 dB |  
 %PAGE 12
-A B2 G | ^FA GE | DE EA | D3 z |  A,2 B,2 | C2 D2 | E2 ^F ^G | A2 E2 |
+A B2 G | ^FA GE | DE EA | D3 z |[V:vlc clef=tenor]  A,2 B,2 | C2 D2 | E2 ^F ^G | A2 E2 |
 %PAGE 13
-A4- | A2 [V:vlc clef=basso] E2 | A,4- | A,2 E,2 | A,4- | A,2 E,2 | A,4- | A,2 [V:vlc clef=tenor] E2 |
+A4- | A2 [V:vlc clef=basso] E2 | A,4- | A,2 E,2 | A,4- | A,2 E,2 | A,4- | A,2 z2 |
+%A4- | A2 [V:vlc clef=basso] E2 | A,4- | A,2 E,2 | A,4- | A,2 E,2 | A,4- | A,2 [V:vlc clef=tenor] E2 |
 %PAGE 14
-A4 | E4 | [V:vlc clef=basso] A,4 | E,4 | A,,4 | A,2 D,2 | G,4 | D,4 |
+Z5 | z2 D,2 | G,4 | D,4 |
+%A4 | E4 | [V:vlc clef=basso] A,4 | E,4 | A,,4 | A,2 D,2 | G,4 | D,4 |
 %PAGE 15
 G,4 | D,4- | D,4 | B,,4- | B,,4 | E,,4 | A,,3 z | Z |]
 %
@@ -612,10 +614,12 @@ Z3 | !pp!"^ $2pizz."D,2 z2 | "^ $2arco"!p!!upbow!!<(!(G,,4- | G,,4 | !<)!!mf!!>(
 %PAGE 11
 Z4 | !mf!G,4- | G,2 C,2 | D,4 | G,4 |
 %PAGE 12
-A,4 | D,2 G,2 | A,4 | D2 B,2 | A,2 B,2 | C2 D2 |[V:cb clef=tenor] E2 ^F ^G | A2 E2 |
+A,4 | D,2 G,2 | A,4 | D2 [V:cb clef=tenor] B,2 | A,2 B,2 | C2 D2 | E2 ^F ^G | A2 E2 |
 %PAGE 13
-A4- | A2 [V:cb clef=basso] E2 | A,4- | A,2 E,2 | A,4- | A,2 E,2 | A,4- | A,2 [V:cb clef=tenor] E2 |
+A4- | A2 [V:cb clef=basso] E2 | A,4- | A,2 E,2 | A,4- | A,2 E,2 | A,4- | A,2 z2 |
+%A4- | A2 [V:cb clef=basso] E2 | A,4- | A,2 E,2 | A,4- | A,2 E,2 | A,4- | A,2 [V:cb clef=tenor] E2 |
 %PAGE 14
-A4 | E4 | [V:cb clef=basso] A,4 | E,4 | A,,4 | A,2 D,2 | G,4 | D,4 |
+Z5 | z2 D,2 | G,4 | D,4 |
+%A4 | E4 | [V:cb clef=basso] A,4 | E,4 | A,,4 | A,2 D,2 | G,4 | D,4 |
 %PAGE 15
 G,4 | D,4- | D,4 | B,,4- | B,,4 | E,,4 | A,,3 z | Z |]
