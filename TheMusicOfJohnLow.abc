@@ -183,7 +183,7 @@ E2) d2 | e4- | e d d B | ^c2) z2 | Z | z ((G2 F )| G2 E2 | e2 ^d2 |
 e4- | e2) z2 | z !mf!!tenuto!(d2 !tenuto!d | !tenuto!d3) z | z!mp!!tenuto!(e2 !tenuto!e | !tenuto!e3) z |\
  z !p!!tenuto!e2 z | Z |
 %PAGE 14
-Z4 | z2 ((d ^c) | B (A g)>^c | (^c2 d2- | d2)) z2 |
+Z3 | z3 !mf!(f | (eG) (d ^c) | B (A g)>^c | (^c2 d2- | d)) z3 |
 %PAGE 15
 Z8 |]
 %
@@ -354,7 +354,7 @@ e) f2 d | (^c e) (d B) | A B B e | A3) z | z2 b2- | b4- | b2 a2 | g2 f2 |
 %PAGE 13
 e4- | e2 z2 | z !mf!!tenuto!(e2 !tenuto!e | !tenuto!e3) z | z !mp!!tenuto!(e2 !tenuto!e | !tenuto!e3) z | z !p!!tenuto!e2 z | Z |
 %PAGE 14
-Z | z2 !mf!b2- | b z g2- | g z e2- | e z d2- | d z ^c2 | (^c2 d2- | d2) z2 |
+Z | z2 !f!b2- | b z !>(!g2- | g z e2- | e z d2- | !>)!d z !p!^c2 | (^c2 d2- | d) z3 |
 %PAGE 15
 Z8 |]
 %
@@ -388,7 +388,7 @@ Z4 | !p!(F3 E | D4 | !<(!^C2 F2- | !<)!!mf!F2) z2 |
 %PAGE 13
 E4- | E2) z2 | z !mf!!tenuto!(E2 !tenuto!E | !tenuto!E3) z | z !mp!!tenuto!(E2 !tenuto!E | !tenuto!E3) z | z !p!!tenuto!E2 z | Z |
 %PAGE 14
-Z | z2 !mf!B2- | B z G2- | G z E2- | E z D2- | D z ^C2 | (^C2 D2- | D2) z2 |
+Z | z2 !f!B2- | B z !>(!G2- | G z E2- | E z D2- | !>)!D z !p!^C2 | (^C2 D2- | D) z3 |
 %PAGE 15
 Z8 |]
 %
@@ -422,9 +422,9 @@ Z8 |
 %PAGE 13
 Z8 |
 %PAGE 14
-!p!!trill!!trill(!E,4- | E,4- | E,4- | E,4- | !trill)!"_ $2l. v."E,2 z2 | z2 !p!D,2 | "_ $2l. v."G,,2 z2 | z2 D,2 |
+!f!!trill!!trill(!E,4- | E,4- | !>(!E,4- | E,4- | E,4- | !>)!!trill)!E,2 !p!D,2 | G,,4  | D,4 |
 %PAGE 15
-"_ $2l. v."G,,2 z2 | Z4 | !p!!<(!!trill!!trill(!E,4!trill)! | !<)!!ff!"_ $2l. v."A,, z3 | Z |]
+G,,4 | Z4 | !p!!<(!!trill!!trill(!E,4!trill)! | !<)!!ff!"_ $2l. v."A,, z3 | Z |]
 %
 %%%%%%%% STRINGS
 %%%% VL 1
@@ -453,13 +453,14 @@ Z4 | !p!!upbow!(G4-!<(! | G4 |!<)!!mf!!>(! (^F4 | G3))!>)!!pp! z |
 %PAGE 11
 (a/^/f/g/a/) (b/^c'/d'/e'/) |!<)!!f!(^f'/e'/^c'/a/) (g/e/^c/A/) | !>(!(^F/A/d/e/) (^f/g/e/^c/) | (d/e/d/c/) (B/A/G/^F/ | !>)!!p!G) z3 | Z3 |
 %PAGE 12
-Z3 | ((D^F) (AB | c)!downbow!e2 d | (cA) (df) | ea ^gb | a) ((e ^gb) | 
+Z3 | !mf!((D^F) (AB | c)!downbow!e2 d | (cA) (df) | !<(!ea ^gb | a) ((e ^gb) | 
 %PAGE 13
-(a^g) (ab) | d'c' a^g | b3) (b | (ba) !tenuto!(=g!tenuto!e) | a3) (b | (ba) !tenuto!(g!tenuto!e) | a3) (b | ba c'e' |
+!<)!!ff!(a^g) (ab) | d'c' a^g | b3) (b | !>(!(ba) !tenuto!(=g!tenuto!e) | !>)!!f!a3) (b | !>(!(ba) !tenuto!(g!tenuto!e) | !>)!!mf!a3) !f!(b | !<(!ba c'e' |
 %PAGE 14
-(g'^f') (e'g') | (^f'a2)) (e' | (e'^f2) d' | (c'e2) b | (ac)) ((g^f) | e (d c'3/2!tenuto!^f/) | (^f2 g2- | g2)) ^f2 |
+!<)!!ff!(g'^f') (e'g') | (^f'a2)) (e' | !>(!(e'^f2) d' | (c'e2)) (b | (ac) (g^f) | !>)!!mf!e (d c'3/2!tenuto!^f/) | \
+(^f2 !>(!g2- | !>)!!p!g2)) !<(!^f2 |
 %PAGE 15
-(^f2 g2- | g2) ^f2 | ^f4- | f4- | f4 | ^g4 | a4- | a4 |]
+!<)!!mf!(^f2 !>(!g2- | !>)!!p!g2) ^f2 | ^f4- | !<(!f4- | f4 | ^g4 | !<)!!ff!a4- | a4 |]
 % 
 %%%% VL 2
 V:vl2
@@ -488,17 +489,13 @@ Z4 | !p!!upbow!((B,4-!<(! | B,2 C2) |!<)!!mf!!>(! (C4 | B,3))!>)!!pp! z |
 %PAGE 11
 (^f/A/B/^c/) (d/e/f/g/) |!<)!!f!(a/g/e/^c/) (A/G/E/^C/) |!>(! (D/E/^F/G/) (A/B/A/G/ | !>)!!mp!^F) z3 | Z4 |
 %PAGE 12
-Z4 | (!upbow!A !downbow!c2 B | (AE) (Bd) | cc Bd | c) ((A Bd) |
+Z4 | !mf!(!upbow!A !downbow!c2 B | (AE) (Bd) | cc Bd | c) ((A Bd) |
 %PAGE 13
-(ce) (^f^g) | ba ee | =g3) (g | (g^f) (!tenuto!e!tenuto!c) | c3) (g | (g^f) (!tenuto!e!tenuto!c) | c3) (d | dc eg |
+!<)!!ff!(ce) (^f^g) | ba ee | =g3) (g | !>(!(g^f) (!tenuto!e!tenuto!c) | !>)!!f!c3) (g | !>(!(g^f) (!tenuto!e!tenuto!c) | !>)!!mf!c3) !f!(d | !<(!dc eg |
 %PAGE 14
-(ba) (gb) | (a c2)) (g | (g A2) ^f | (e A2) d | (cE)) ((BA) | G(^F ^f3/2!tenuto!^A/) | (^A2 B2- | B2)) "^ $2div."c2 & x2 A2 |
-%%% Use following to get best # of midi channels:
-%ba gb | a c2 g | g A2 ^f | e A2 d | cE BA | G^F ^f3/2^A/ | ^A2 B2- | B2 "^ $2div."c2 |
+!<)!!ff!(ba) (gb) | (a c2)) (g | !>(!(g A2) ^f | (e A2)) (d | (cE) (BA) | !>)!!mf!G(^F ^f3/2!tenuto!^A/) | (^A2 !>(!B2- | !>)!!p!B2)) !<(!=A2 |
 %PAGE 15
-c2 B2 &A2 B2 |[c4^F4] | [A4^F4]- | [A4F4]- | [A4F4] | [^G4D4] | A z3 & C x3 | Z |]
-%%% Use following to get best # of midi channels:
-%c2 B2 |^F4 | A4- | A4- | A4 | D4 |"^ $2unis." C z3 | Z |]
+!<)!!mf!(A2 !>(!B2- |!>)!!p!B2) c2 | A4- | A4- | A4 | d4 | c z3 | Z |]
 %
 %%%% VLA
 V:vla clef=alto nm="Violas" snm="Vla"
@@ -510,13 +507,9 @@ V:vla clef=alto nm="Violas" snm="Vla"
 (A,/B,/A,/B,/) (A,/B,/A,/B,/) | (^G,/B,/G,/B,/) (G,/B,/G,/B,/) |  (A,/C/A,/C/) (A,/C/A,/C/) |  (A,/C/A,/C/) (A,/C/A,/C/) | !<(!(A,/D/A,/D/) (B,/D/B,/D/)!<)! |
 %PAGE 3
 !mf!(G,/C/G,/C/) (G,/C/G,/C/) | (B,/D/B,/D/) (B,/D/B,/D/) | !<(!(A,/C/A,/C/) (A,/C/A,/C/) | !<)!(A,/!>(!B,/A,/B,/) (A,/B,/A,/B,/) | (^G,/B,/G,/B,/!>)!!p!G,) z |\
-!mf!!<(!!tenuto![EB,] !tenuto![EB,]2 !tenuto![EB,] | !<)!!f!!tenuto![EB,]([EB,] [EA,])!tenuto![EA,] |
-%%% Use following to get best # of midi channels:
-%!mf!!<(!!tenuto!B, !tenuto!B,2 !tenuto!B, | !<)!!f!!tenuto!B,(B, E)!tenuto!E |
+!mf!!<(!!tenuto!E, !tenuto!E,2 !tenuto!E, | !<)!!f!!tenuto!E,!tenuto!E,2!tenuto!E, |
 %PAGE 4
-!tenuto![EB,] !tenuto![EB,]2 !tenuto!!upbow![EB,] | !>(![EB,]3 !>)!!p!z | Z2 | z3 !p!!<(!(A, | !<)!!>(!E,3) !>)!z | z3 !p!B,- |
-%%% Use following to get best # of midi channels:
-%!tenuto!B, !tenuto!B,2 !tenuto!!upbow!B, | !>(!B,3 !>)!!p!z | Z2 | z3 !p!!<(!(A, | !<)!!>(!E,3) !>)!z | z3 !p!B,- |
+!tenuto!E, !tenuto!E,2 !tenuto!!upbow!E, | !>(!E,3 !>)!!p!z | Z2 | z3 !p!!<(!(A, | !<)!!>(!E,3) !>)!z | z3 !p!B,- |
 %PAGE 5
 !<(!B, (!tenuto!B,2 !tenuto!B,) | B,!<)! !f!!tenuto!E, !tenuto!E, (E, | (E>F) (EC) | (A,2 E))(E | (FE) (!tenuto!D!tenuto!G) | E3) (E | DD B,E |
 %PAGE 6
@@ -536,11 +529,9 @@ Z3 | !mf!((D,^F,) (A,B, | C) !downbow!E2 D | (CA,) (DF) | !<(!EA ^GB | A)((E ^GB
 %PAGE 13
 !<)!!ff!(A^G) (AB) | dc A^G | B3) (B | !>(!(BA) (=GE) | !>)!!f!A3) (B | !>(!(BA) (GE) | !>)!!mf!A3)[K:Am clef=treble] !f!(B | !<(!BA ce |
 %PAGE 14
-!<)!!ff!(g^f) (eg) | (^fA2)) (e | (e^F2) d | (c E2) [K:Am clef=alto] B | (AC)) ((G^F) | E(D c3/2!tenuto!^F/) | (^F2 G2- | G2)) ^F2 |
+!<)!!ff!(g^f) (eg) | (^fA2)) (e | !>(!(e^F2) d | (c E2)) [K:Am clef=alto] (B | (AC) (G^F) | !>)!!mf!E(D c3/2!tenuto!^F/) | (^F2 !>(!G2- | !>)!!p!G2)) !<(!^F2 |
 %PAGE 15
-^F2 D2 |"^ $2div." D4- & A,4- | D4 & A,2 C2 | [^D4B,4]- | [D4B,4] | [E4B,4] | E z3 & A, x3 | Z |]
-%%% Use following to get best # of midi channels:
-%^F2 D2 |"^ $2div." A,4- | A,2 C2 | ^D4- | D4 | B,4 |"^ $2unis." A, z3 | Z |]
+!<)!!mf!(^F2 !>(!D2- | !>)!!p!D2) D2 | D4 | !<(!^D4- | D4 | E4 | !<)!!ff!E z3 | Z |]
 %
 %%%% VLC
 V:vlc clef=basso nm="Violoncellos" snm="Vlc"
@@ -572,9 +563,9 @@ A) !downbow!B2 G | (^FA) (GE) | !>(!DE EA | !>)!!mf!D3) z |[K:Am clef=tenor] !mf
 %PAGE 13
 !<)!!ff!A4- | A2 E2 | A4- | A2 E2 | A4- | A2 [K:Am clef=basso] E2 |  A,3 z | Z |
 %PAGE 14
-Z5 | z2 D,2 | G,4 | D,4 |
+Z5 | z2 !mf!D,2 | !>(!G,4 | !>)!!p!!<(!D,4 |
 %PAGE 15
-G,4 | D,4- | D,4 | B,,4- | B,,4 | E,,4 | A,, z3 | Z |]
+!<)!!mf!!>(!G,4 | !>)!!p!A,4- | A,2 C2 | !<(!B,4- | B,4- | B,4 | !<)!!ff!A, z3 | Z |]
 %
 %%%% CB
 V:cb transpose=-12 clef=basso nm="Contrabass" snm="Cb"
@@ -584,9 +575,9 @@ V:cb transpose=-12 clef=basso nm="Contrabass" snm="Cb"
 %PAGE 2
 A,,4 | Z | D,2 E,2 | A,,4 | B,,4 | E,,4 | A,,4 | A,,4 | !<(!F,,2 G,,2!<)! |
 %PAGE 3
-!mf!C,4  | D,2 E,2 | A,,4 | B,,4 | E,2 z2 | "^ $2arco"!mf!!<(!E,4 | !<)!!f!(E,2 A,,2) |
+!mf!C,4  | D,2 E,2 | A,,4 | B,,4 | E,2 z2 | "^ $2arco"!mf!!<(!!tenuto!E, !tenuto!E,2 !tenuto!E, | !<)!!f!!tenuto!E, (E, A,,) !tenuto!A,,) |
 %PAGE 4
-E,4- | !>(!E,3 !>)!!p!z | Z5 |
+!tenuto!E, !tenuto!E,2 !upbow!!tenuto!E, | !>(!E,3 !>)!!p!z | Z5 |
 %PAGE 5
 Z | z !f!!tenuto!E,, !tenuto!E,, !tenuto!E,, | (A,,2 !downbow!A,2- | A,2 G,2 | F,2 G,2 | C,3) (C, | D,2 E,^G,, | 
 %PAGE 6
@@ -606,6 +597,6 @@ A,4 | D,2 G,2 | !>(!A,4 |[K:Am clef=tenor] !>)!!mp!D2  !mf!(B,2 | A,2 B,2 | C2 D
 %PAGE 13
 !<)!!ff!A4- | A2 E2 | A4- | A2 E2 | A4- | A2 [K:Am clef=basso] E2 | A,3 z | Z |
 %PAGE 14
-Z5 | z2 D,2 | G,4 | D,4 |
+Z5 | z2 !mf!D,2 | !>(!G,4 | !>)!!p!!<(!D,4 |
 %PAGE 15
-G,4 | D,4- | D,4 | B,,4- | B,,4 | E,,4 | A,, z3 | Z |]
+!<)!!mf!!>(!G,4 | !>)!!p!D,4- | D,4 | !<(!B,,4- | B,,4 | E,,4 | !<)!!ff!A,, z3 | Z |]
