@@ -67,15 +67,16 @@ Z3 |"^ $11'30\''" Z5 |
 %PAGE 10
 Z5 |"^ $11'45\''" Z3 | 
 %PAGE 11
-z/ !p!(a/b/^c'/ d'/e'/^f'/g'/ | a'/g'/e'/^c'/ a/g/e/^c/ | d/e/^f/g/ a/b/a/^c'/ | d') z (g/^f/e/f/ |\
- g/^f/g/f/ g/f/g/f/ | g/^f/e/d/ e/f/g/a/ | b/a/b/a/ g/a/b/c'/ |"^ $12'" d'/c'/b/a/ g) z |
+z/ !mf!!<(!(a/b/^c'/ d'/e'/^f'/g'/ | !<)!!f!a'/g'/e'/^c'/ a/g/e/^c/ | !>(!d/e/^f/g/ a/b/a/^c'/ | !>)!!mf!d') z !>(!(g/^f/e/f/ |\
+ !>)!!mp!g/^f/g/f/ g/f/g/f/ | g/^f/e/d/ e/f/g/a/ | b/a/b/a/ g/a/b/c'/ |"^ $12'" d'/c'/b/a/ g) z |
 %PAGE 12
 %Z | z2 !pp!_B2- | B2 A2 | Z5 |
-Z6 | z a ^g b | a e ^g b |
+Z6 | z (a ^g b | a) (e ^g b |
 %PAGE 13
-a4- | "^ $12'15\''" a2 z2 | z !p!c'2 c' | c'3 z | z !pp!c'2 c' | c'3 z |  z !ppp!c'2 c' | c'4- | 
+a4- | "^ $12'15\''" a2) z2 | z !mf!!tenuto!(c'2 !tenuto!c' | !tenuto!c'3) z | z !mp!!tenuto!(c'2 !tenuto!c' |\
+ !tenuto!c'3) z |  z !p!!tenuto!c'2 z | Z | 
 %PAGE 14
-c' z3 | Z2 | "^ $12'30\''" Z5 |
+Z3 | "^ $12'30\''" Z5 |
 %PAGE 15
 Z5 |"^ $12'45\''" Z3 |]
 %
@@ -102,15 +103,15 @@ Z9 |
 Z8 |
 %PAGE 10
 %%MIDI program 72
-Z7 |"^ $2Picc." z [K:Am transpose=12]!mf!((g ea) |
+Z7 |"^ $2Picc." z [K:Am transpose=12]!f!((g ea) |
 %PAGE 11
-^fa (bg | e^c) (AG | ^F) A2) (A | d/c/B/A/ G) z| !p!(B/A/B/A/ B/A/B/A/ | B/A/G/^F/ G/A/B/c/ | d/c/d/c/ d/^f/a/c'/ | b/a/g/^f/ g) z |
+^fa (bg | e^c) (AG | !>(!^F) A2) (A | !>)!!mf!d/c/B/A/ G) z| !mp!(B/A/B/A/ B/A/B/A/ | B/A/G/^F/ G/A/B/c/ | d/c/d/c/ d/^f/a/c'/ | b/a/g/^f/ g) z |
 %PAGE 12
-Z | z2 !pp!_B2- | B2 A2 | Z3 | e4- | e2 d2 |
+Z | z2 !pp!_B2- | B2 A2 | Z3 | (e4- | e2 d2 |
 %PAGE 13
-c4- | c2 z2 | z !p!a2 a | a3 z | z !pp!a2 a | a3 z  | z !ppp!a2 a | a4- |
+c4- | c2) z2 | z !mf!!tenuto!(a2 !tenuto!a | !tenuto!a3) z | z !mp!!tenuto!(a2 !tenuto!a | !tenuto!a3) z  | z !p!!tenuto!a2 z | Z |
 %PAGE 14
-a z3 | Z7 |
+Z8 |
 %PAGE 15
 Z8 |]
 %
@@ -141,13 +142,12 @@ Z8 |
 Z8 |
 %Z4 | z2 !mf!D2 | G3 ^F | EG ^FA | G2 BG |
 %PAGE 12
-Z | z2 !pp!_B2- | B2 A2 | Z3 | e4- | e2 d2 |
-%Z8 |
-%A^c eg | ^fa2 A- | Ag e^c | d3 z | Z4 |
+Z | z2 !pp!_B2- | B2 A2 | Z3 | (e4- | e2 d2 |
 %PAGE 13
-c4- | c2 z2 | z !p!e2 e | e3 z | z !pp!e2 e | e3 z | z !ppp!e2 e | e4- |
+c4- | c2) z2 | z !mf!!tenuto!(e2 !tenuto!e | !tenuto!e3) z | z !mp!!tenuto!(e2 !tenuto!e | !tenuto!e3) z |\
+ z !p!!tenuto!e2 z | Z |
 %PAGE 14
-e z3 | Z7 |
+Z8 |
 %PAGE 15
 Z8 |]
 %
@@ -180,9 +180,10 @@ Z5 | z !mf!(ABd | ^c2 A2- | A) ((G F D |
 %PAGE 12
 E2) d2 | e4- | e d d B | ^c2) z2 | Z | z ((G2 F )| G2 E2 | e2 ^d2 |
 %PAGE 13
-e4- | e2) z2 | z !p!d2 d | d3 z | !pp!z e2 e | e3 z | z !ppp!e2 e | e4- |
+e4- | e2) z2 | z !mf!!tenuto!(d2 !tenuto!d | !tenuto!d3) z | z!mp!!tenuto!(e2 !tenuto!e | !tenuto!e3) z |\
+ z !p!!tenuto!e2 z | Z |
 %PAGE 14
-e z3 | Z3 | z2 ((d ^c) | B (A g)>^c | (^c2 d2- | d2)) z2 |
+Z4 | z2 ((d ^c) | B (A g)>^c | (^c2 d2- | d2)) z2 |
 %PAGE 15
 Z8 |]
 %
@@ -208,13 +209,13 @@ c3 !>)!!pp!z | Z4 | !pp!!<(!(B4 | =c4 |!<)!!mp! !>(!B4- | B3) !>)!!pp!z |
 %PAGE 9
 Z8 |
 %PAGE 10
-Z3 | !p!!<(!(^GA B^B | c)!<)! !mf!(e2 d | (cA) df | (e^g) (^eg) | f)((a fb) | 
+Z3 | !p!!<(!(^GA B^B | c)!<)! !mf!(e2 d | (cA) df | !<(!(e^g) (^eg) | !<)!!f!f)((a fb) | 
 %PAGE 11
-^gb (c'a | f^d) (BA | ^G) B2 (B, | E3)) z | Z3 | z2 !p!(c'/b/a/^g/ |
+^gb (c'a | f^d) (BA | !>(!^G) B2 (B, | !>)!!mf!E3)) z | Z3 | z2 !mp!(c'/b/a/^g/ |
 %PAGE 12
-f/^d/B/A/ F/^D/B,/D/ | E/F/^G/B/ e/^g/b/c'/ | ^d'/e'/d'/c'/ b/f/^d/f/ | ^g) z3 | Z | z B,2 ^A, | B,2 F2 | d B c e | 
+f/^d/B/A/ F/^D/B,/D/ | E/F/^G/B/ e/^g/b/c'/ | ^d'/e'/d'/c'/ b/f/^d/f/ | ^g) z3 | Z | z (B,2 ^A, | B,2 F2- | F) ((B c e) | 
 %PAGE 13
-d4- | d2 z2 | z !p!c2 c | c3 z | z !pp!B2 B | B3 z | Z2 |
+d4- | d2) z2 | z !mf!!tenuto!(c2 !tenuto!c | !tenuto!c3) z | z !mp!!tenuto!(B2 !tenuto!B | !tenuto!B3) z | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -242,13 +243,13 @@ F3 !>)!!pp!z | Z4 | !pp!!<(!(^D4 | E4- |!<)!!mp! !>(! E4- | E3) !>)!!pp!z|
 %PAGE 9
 Z8 |
 %PAGE 10
-Z4 | z !mf!(c2 B | (AC) Fd | (cB) (^GB) | A)((f ^d2) |
+Z4 | z !mf!(c2 B | (AC) Fd | !<(!(cB) (^GB) | !<)!!f!A)((f ^d2) |
 %PAGE 11
-e^g (af | ^dB) (F^D | E)(CB,A, | ^G,3)) z | Z3 | z2 !p!(a/^g/f/e/ |
+e^g (af | ^dB) (F^D | !>(!E)(CB,A, | !>)!!mf!^G,3)) z | Z3 | z2 !mp!(a/^g/f/e/ |
 %PAGE 12
-^d/B/A/F/ ^D/B,/A,/B,/ | ^G,/B,/E/^G/ B/e/^g/a/ | b/c'/b/a/ f/^d/B/d/ | e) z3 | Z2 | d2 c2 | B2 ^A2 | 
+^d/B/A/F/ ^D/B,/A,/B,/ | ^G,/B,/E/^G/ B/e/^g/a/ | b/c'/b/a/ f/^d/B/d/ | e) z3 | Z2 | (d2 c2 | B2 ^A2 | 
 %PAGE 13
-B4- | B2 z2 | z !p!A2 A | A3 z | z !pp!F2 F | F3 z | Z2 |
+B4- | B2) z2 | z !mf!!tenuto!(A2 !tenuto!A | !tenuto!A3) z | z !mp!!tenuto!(F2 !tenuto!F | !tenuto!F3) z | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -280,9 +281,9 @@ Z4 | !p!(G,3 A, | B,2 C2 | !<(! B,2 A,2 | !<)!!mf!G,2) z2 |
 %PAGE 11
 (A,2 G,2- | G,2 E,2 | ^F,2 (G,E,) | D,3) z | Z4 |
 %PAGE 12
-Z4 | z A,2 ^G, | A,2 E,2 | C,2 D,B,, | C,2 E,2 |
+Z4 | z (A,2 ^G, | A,2 E,2 | C,2 D,B,, | C,2) (E,2 |
 %PAGE 13
-A,4- | A,2 z2 | z !p!C2 C | C3 z | z !pp!C2 C | C3 z | Z2 |
+A,4- | A,2) z2 | z !mf!!tenuto!(C2 !tenuto!C | !tenuto!C3) z | z !mp!!tenuto!(C2 !tenuto!C | !tenuto!C3) z | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -314,9 +315,9 @@ Z4 | !p!(G,,4 | G,2 C,2 | !<(!D,2 B,,2 | !<)!!mf!E,2) A,,2 |
 %PAGE 11
 (D,2 E,2 | A,,4 | D,2 A,,2 | D,3) z | Z4 |
 %PAGE 12
-Z4 | z2 E,2 | A,,2 B,,2 | A,,2 E,,2 | A,,2 B,,2 |  
+Z4 | z2 (E,2 | A,,2 B,,2 | A,,2 E,,2 | A,,2) (B,,2 |  
 %PAGE 13
-C,4- | C,2 z2 | z !p!E,2 E, | E,3 z | z !pp!E,2 E, | E,3 z | Z2 |
+C,4- | C,2) z2 | z !mf!!tenuto!(E,2 !tenuto!E, | !tenuto!E,3) z | z !mp!!tenuto!(E,2 !tenuto!E, | !tenuto!E,3) z | Z2 |
 %PAGE 14
 Z8 |
 %PAGE 15
@@ -351,9 +352,9 @@ Z4 | !p!(A4- | A2 B2 | !<(!F2 ^A2 | !<)!!mf!B2) z2 |
 %PAGE 12
 e) f2 d | (^c e) (d B) | A B B e | A3) z | z2 b2- | b4- | b2 a2 | g2 f2 |
 %PAGE 13
-e4- | e2 z2 | z !p!e2 e | e3 z | z !pp!e2 e | e3 z | z !ppp!e2 e | e4- |
+e4- | e2 z2 | z !mf!!tenuto!(e2 !tenuto!e | !tenuto!e3) z | z !mp!!tenuto!(e2 !tenuto!e | !tenuto!e3) z | z !p!!tenuto!e2 z | Z |
 %PAGE 14
-e z3 | z2 !mf!b2- | b z g2- | g z e2- | e z d2- | d z ^c2 | (^c2 d2- | d2) z2 |
+Z | z2 !mf!b2- | b z g2- | g z e2- | e z d2- | d z ^c2 | (^c2 d2- | d2) z2 |
 %PAGE 15
 Z8 |]
 %
@@ -383,11 +384,11 @@ Z4 | !p!(F3 E | D4 | !<(!^C2 F2- | !<)!!mf!F2) z2 |
 %PAGE 11cd 
 (^C2 D2 | E4- | E4- | E3) z | (f3 e | (d F) B g | e2 ^c2 | d2) ((A2 |
 %PAGE 12
-^c) d2 B | (A ^c) (B E) | ^C2 E2 | A,2) z2 | E2 F2 | G2 A2 | B2 ^c ^d | e2 B2 |
+^c) d2 B | (A ^c) (B E) | ^C2 E2 | A,2) z2 | (E2 F2 | G2 A2 | B2 ^c ^d | e2 B2 |
 %PAGE 13
-E4- | E2 z2 | z !p!E2 E | E3 z | z !pp!E2 E | E3 z | z !ppp!E2 E | E4- |
+E4- | E2) z2 | z !mf!!tenuto!(E2 !tenuto!E | !tenuto!E3) z | z !mp!!tenuto!(E2 !tenuto!E | !tenuto!E3) z | z !p!!tenuto!E2 z | Z |
 %PAGE 14
-E z3 | z2 !mf!B2- | B z G2- | G z E2- | E z D2- | D z ^C2 | (^C2 D2- | D2) z2 |
+Z | z2 !mf!B2- | B z G2- | G z E2- | E z D2- | D z ^C2 | (^C2 D2- | D2) z2 |
 %PAGE 15
 Z8 |]
 %
@@ -448,9 +449,9 @@ e3)!>)!!pp! z | Z3 | z3 !p!!<(!(e | (a>_b a)^f | (d2 _b))(b |!<)!!mf! !>(!aa ga 
 %PAGE 9
 Z4 | !p!!upbow!(G4-!<(! | G4 |!<)!!mf!!>(! (^F4 | G3))!>)!!pp! z |
 %PAGE 10
-!pp!!<(!!upbow!(E4 | !<)!!mf!D4 | !>(!(!tenuto!D !tenuto!E2 !tenuto!^F) | D3)!>)!!pp! z | Z3 | !p!(G/A/B/^c/) (^d/e/^f/g/) |
+!pp!!<(!!upbow!(E4 | !<)!!mf!D4 | !>(!(!tenuto!D !tenuto!E2 !tenuto!^F) | D3)!>)!!pp! z | Z3 | !p!!<(!(G/A/B/^c/) (^d/e/^f/g/) |
 %PAGE 11
-(a/^/f/g/a/) (b/^c'/d'/e'/) | (^f'/e'/^c'/a/) (g/e/^c/A/) | (^F/A/d/e/) (^f/g/e/^c/) | (d/e/d/c/) (B/A/G/^F/ | G) z3 | Z3 |
+(a/^/f/g/a/) (b/^c'/d'/e'/) |!<)!!f!(^f'/e'/^c'/a/) (g/e/^c/A/) | !>(!(^F/A/d/e/) (^f/g/e/^c/) | (d/e/d/c/) (B/A/G/^F/ | !>)!!p!G) z3 | Z3 |
 %PAGE 12
 Z3 | ((D^F) (AB | c)!downbow!e2 d | (cA) (df) | ea ^gb | a) ((e ^gb) | 
 %PAGE 13
@@ -483,9 +484,9 @@ e3) !>)!!pp!z | Z3 | z3 !p!!<(!(e | (^c>d c)A | (_B2 g))(g |!<)!!mf! !>(!^ff ef 
 %PAGE 9
 Z4 | !p!!upbow!((B,4-!<(! | B,2 C2) |!<)!!mf!!>(! (C4 | B,3))!>)!!pp! z |
 %PAGE 10
-!pp!!<(!!upbow!((^C3 A,) | !<)!!mf!A,4 | !>(!(B,2 ^C2) | D3)!>)!!pp! z | Z2 | z2 !p!!upbow!(^C/^D/E/^F/) | (G/^F/G/A/) (B/^c/^d/e/) |
+!pp!!<(!!upbow!((^C3 A,) | !<)!!mf!A,4 | !>(!(B,2 ^C2) | D3)!>)!!pp! z | Z2 | z2 !p!!upbow!(^C/^D/E/^F/) |!<(! (G/^F/G/A/) (B/^c/^d/e/) |
 %PAGE 11
-(^f/A/B/^c/) (d/e/f/g/) | (a/g/e/^c/) (A/G/E/^C/) | (D/E/^F/G/) (A/B/A/G/ | ^F) z3 | Z4 |
+(^f/A/B/^c/) (d/e/f/g/) |!<)!!f!(a/g/e/^c/) (A/G/E/^C/) |!>(! (D/E/^F/G/) (A/B/A/G/ | !>)!!mp!^F) z3 | Z4 |
 %PAGE 12
 Z4 | (!upbow!A !downbow!c2 B | (AE) (Bd) | cc Bd | c) ((A Bd) |
 %PAGE 13
@@ -527,15 +528,15 @@ Z6 | !pp!!<(!!upbow!(_B,4 |!<)!!mp! !>(!A,3) !>)!!pp!z | Z |
 %PAGE 9
 Z4 | !p!!upbow!((D,4- | D,2 E,2) | !<(!D,4 | D,3)!<)!!mf! z | 
 %PAGE 10
-!pp!!<(!!upbow!(A,4 | !<)!!mf!(^F,2 G,2) | !>(!(G,2 E,2) | ^F,3)!>)!!pp! z | Z2 |!p! (^F,/G,/A,/B,/) (^C/^D/E/^F/) | (G/^F/G/A/) (B/E/F/G/ |
+!pp!!<(!!upbow!(A,4 | !<)!!mf!(^F,2 G,2) | !>(!(G,2 E,2) | ^F,3)!>)!!pp! z | Z2 |!p! (^F,/G,/A,/B,/) (^C/^D/E/^F/) | !<(!(G/^F/G/A/) (B/E/F/G/ |
 %PAGE 11
-A) z3 | Z | z2 z/!upbow!(B/A/G/) | (^F/E/D/C/) (B,/A,/G,/^F,/ | G,) z3 | Z3 |
+!<)!!mf!A) z3 | Z | z2 z/!upbow!!mf!!>(!(B/A/G/) | (^F/E/D/C/) (B,/A,/G,/^F,/ | !>)!!p!G,) z3 | Z3 |
 %PAGE 12
-Z3 | ((D,^F,) (A,B, | C) !downbow!E2 D | (CA,) (DF) | EA ^GB | A)((E ^GB) |
+Z3 | !mf!((D,^F,) (A,B, | C) !downbow!E2 D | (CA,) (DF) | !<(!EA ^GB | A)((E ^GB) |
 %PAGE 13
-(A^G) (AB) | dc A^G | B3) (B | (BA) (=GE) | A3) (B | (BA) (GE) | A3)[K:Am clef=treble] (B | BA ce |
+!<)!!ff!(A^G) (AB) | dc A^G | B3) (B | !>(!(BA) (=GE) | !>)!!f!A3) (B | !>(!(BA) (GE) | !>)!!mf!A3)[K:Am clef=treble] !f!(B | !<(!BA ce |
 %PAGE 14
-(g^f) (eg) | (^fA2)) (e | (e^F2) d | (c E2) [K:Am clef=alto] B | (AC)) ((G^F) | E(D c3/2!tenuto!^F/) | (^F2 G2- | G2)) ^F2 |
+!<)!!ff!(g^f) (eg) | (^fA2)) (e | (e^F2) d | (c E2) [K:Am clef=alto] B | (AC)) ((G^F) | E(D c3/2!tenuto!^F/) | (^F2 G2- | G2)) ^F2 |
 %PAGE 15
 ^F2 D2 |"^ $2div." D4- & A,4- | D4 & A,2 C2 | [^D4B,4]- | [D4B,4] | [E4B,4] | E z3 & A, x3 | Z |]
 %%% Use following to get best # of midi channels:
@@ -565,11 +566,11 @@ Z3 | !ppp!"^ $2pizz."D,2 z2 | "^ $2arco"!p!!upbow!!<(!(G,,4- | G,,4 | !<)!!mf!!>
 %PAGE 10
 !<(!A,,2 (B,,^C,) | !<)!!mf!(D,2 G,2) | !>(!(A,2 A,,2) | D,3)!>)!!pp! z | !p!(G,,/^F,,/G,,/F,,/) (G,,/F,,/G,,/F,,/) | (G,,/^F,,/G,,/A,,/) (B,,/A,,/B,,/C,/) | (D,/E,/^F,/G,/) (A,/B,/^C/^D/ | E) z3 |
 %PAGE 11
-Z3 | z2[K:Am clef=treble] (D2 | d3 c | (BG) !tenuto!(c!tenuto!e) | d2 !tenuto!(e!tenuto!c) | B2) ((dB |  
+Z3 | z2[K:Am clef=treble] !mf!(D2 | d3 c | !<(!(BG) !tenuto!(c!tenuto!e) | d2 !tenuto!(e!tenuto!c) | !<)!!f!B2) ((dB |  
 %PAGE 12
-A) !downbow!B2 G | (^FA) (GE) |DE EA | D3) z |[K:Am clef=tenor] A,2 B,2 | C2 D2 | E2 !tenuto!(^F!tenuto!^G) | A2 E2 |
+A) !downbow!B2 G | (^FA) (GE) | !>(!DE EA | !>)!!mf!D3) z |[K:Am clef=tenor] !mf!(A,2 B,2 | C2 D2 | !<(!E2 !tenuto!(^F!tenuto!^G) | A2) E2 |
 %PAGE 13
-A4- | A2 E2 | A4- | A2 E2 | A4- | A2 [K:Am clef=basso] E2 | A,4- | A,2 z2 |
+!<)!!ff!A4- | A2 E2 | A4- | A2 E2 | A4- | A2 [K:Am clef=basso] E2 |  A,3 z | Z |
 %PAGE 14
 Z5 | z2 D,2 | G,4 | D,4 |
 %PAGE 15
@@ -599,11 +600,11 @@ Z3 | !ppp!"^ $2pizz."D,2 z2 | "^ $2arco"!p!!upbow!!<(!(G,,4- | G,,4 | !<)!!mf!!>
 %PAGE 10
 !<(!A,,2 (B,,^C,) | !<)!!mf!(D,2 G,2) | !>(!(A,2 A,,2) | D,3)!>)!!pp! z | !p!(G,,/^F,,/G,,/F,,/) (G,,/F,,/G,,/F,,/) | (G,,/^F,,/G,,/A,,/) (B,,/A,,/B,,/C,/) | (D,/E,/^F,/G,/) (A,/B,/^C/^D/ | E) z3 |
 %PAGE 11
-Z4 | !mf!G,4- | G,2 C,2 | D,4 | G,4 |
+Z4 | !mp!G,4- | G,2 !<(!C,2 | D,4 | !<)!!mf!G,4 |
 %PAGE 12
-A,4 | D,2 G,2 | A,4 |[K:Am clef=tenor] D2  B,2 | A,2 B,2 | C2 D2 | E2 !tenuto!(^F!tenuto!^G) | A2 E2 |
+A,4 | D,2 G,2 | !>(!A,4 |[K:Am clef=tenor] !>)!!mp!D2  !mf!(B,2 | A,2 B,2 | C2 D2 | !<(!E2 !tenuto!(^F!tenuto!^G) | A2) E2 |
 %PAGE 13
-A4- | A2 E2 | A4- | A2 E2 | A4- | A2 [K:Am clef=basso] E2 | A,4- | A,2 z2 |
+!<)!!ff!A4- | A2 E2 | A4- | A2 E2 | A4- | A2 [K:Am clef=basso] E2 | A,3 z | Z |
 %PAGE 14
 Z5 | z2 D,2 | G,4 | D,4 |
 %PAGE 15
