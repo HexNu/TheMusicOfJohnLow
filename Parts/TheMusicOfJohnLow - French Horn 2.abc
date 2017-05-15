@@ -1,0 +1,42 @@
+%%deco sp 6 pf 20 0 0 sp
+%%deco niente 6 pf 20 0 0 niente
+
+%%setfont-1 Bookman-LightItalic 18
+%%setfont-2 Times-LightItalic 15
+%%titlefont Bookman-Demi 24
+%%headerfont Bookman-LightItalic 7
+%%footerfont Bookman-LightItalic 7
+%%composerfont Bookman-LightItalic 8
+
+%%header "The Music of John Low		"
+%%footer "	$P	"
+
+%staffnonote 0
+%%indent 0.7cm
+%%autoclef 0
+%%barnumbers 5
+%%measurebox 0
+%%scale 0.65
+
+%%abc-charset utf-8
+
+X:1
+T:The Music of John Low
+T:Vivace
+C:Håkan Lidén
+C:maj 2017
+Q:"Vivace    " 1/4=160
+M:C
+L:1/4
+K:Em
+V:cl1 nm="French Horn 2 (F)"
+Z18 | !mf!!tenuto!B, !tenuto!B,2 !tenuto!B, | !tenuto!B,(B, E)!tenuto!E | !tenuto!B, !tenuto!B,2 !tenuto!B, | !>(!B,3 !>)!!p!z | Z7 | 
+!f!!tenuto!E !tenuto!E2 !tenuto!E | !tenuto!E "^ $2simile"E2 E | E(E F)F | G G2 G | F F2 F | G G2 G | F (F E) E | 
+!>(!^D D2!>)! D |!mf!!<(! E E2 E | E E2 E | E(E F)F |!<)!!ff! G G2 G | C (C D) D | G G2 D | 
+^C C2 C | ^D3 z | Z3 | z3 !p!!<(! (B | (^d>e d)B | (B2!<)!!mf! e))(e | 
+!>(! ^dd ^cd | B3) !>)!!p!z | Z4 | z3 !p!!+!(A | !+!!>(!e4- | e) !>)!!ppp!z3 | Z9 | 
+!p!(F3 E | D4 | !<(!^C2 F2- | !<)!!mf!F2) z2 | (^C2 D2 | E4- | !>(!E4- | !>)!!mp!E3) z | 
+!mp!(f3 e | !<(!(d F) B g | e2 ^c2 | !<)!!mf!d2) ((A2 | ^c) d2 B | (A ^c) (B E) | 
+!>(!^C2 E2 | !>)!!mp!A,2) z2 | !mf!(E2 F2 | G2 A2 | !<(!B2 ^c ^d | e2 B2 | !<)!!ff!E4- | E) z3 | z !mf!!tenuto!(E2 !tenuto!E | 
+!tenuto!E3) z | z !mp!!tenuto!(E2 !tenuto!E | !tenuto!E3) z | z !p!!tenuto!E2 z | Z2 | z2 !f!B2- | B z !>(!G2- | G z E2- | E z D2- | 
+D !>)!!p! z ^C2 | (^C2 D2- | D) z3 | Z9 |]

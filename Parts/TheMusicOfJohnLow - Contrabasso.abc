@@ -1,0 +1,45 @@
+%%deco sp 6 pf 20 0 0 sp
+%%deco niente 6 pf 20 0 0 niente
+
+%%setfont-1 Bookman-LightItalic 18
+%%setfont-2 Times-LightItalic 15
+%%titlefont Bookman-Demi 24
+%%headerfont Bookman-LightItalic 7
+%%footerfont Bookman-LightItalic 7
+%%composerfont Bookman-LightItalic 8
+
+%%header "The Music of John Low		"
+%%footer "	$P	"
+
+%staffnonote 0
+%%indent 0.7cm
+%%autoclef 0
+%%barnumbers 5
+%%measurebox 0
+%%staffsep 2.4cm
+%%scale 0.65
+
+%%abc-charset utf-8
+
+X:1
+T:The Music of John Low
+T:Vivace
+C:Håkan Lidén
+C:maj 2017
+Q:"Vivace    " 1/4=160
+M:C
+L:1/4
+K:Am
+V:cb clef=basso nm="Contrabasso"
+!pp!"^ $2pizz."A,,4 | Z | A,,4 | Z | A,,4 | Z | D,,2 E,,2 | A,,4 | B,,4 | E,,4 | 
+A,,4 | A,,4 | !<(!F,,2 G,,2!<)! | !mf!C,4  | D,2 E,2 | A,,4 | B,,4 | E,2 z2 | "^ $2arco"!mf!!<(!!tenuto!E, !tenuto!E,2 !tenuto!E, | !<)!!f!!tenuto!E, (E, A,,) !tenuto!A,,) | 
+!tenuto!E, !tenuto!E,2 !upbow!!tenuto!E, | !>(!E,3 !>)!!p!z | Z6 | z !f!!tenuto!E,, !tenuto!E,, !tenuto!E,, | (A,,2 !downbow!A,2- | A,2 G,2 | 
+F,2 G,2 | C,3) (C, | D,2 E,^G,, | !upbow!A,, F,2 E, | D,2 ^D,2 | !>(!!tenuto!E,)!tenuto!=D, !tenuto!C,!>)!!tenuto!B,, |
+!mf!!<(! (A,,2 !downbow!A,2- | A,2 A,2 | D,2 G,2 |!<)!!ff! C,3) (C, | F,2 G,2 | (C,B,,) A,,2 | B,,3 B,, | 
+E,,3) z |  Z |!p!!<(! (!upbow!(E,2 A,2) |!<)!!mf! !>(!E,3) !>)!!pp!z | Z6 | !pp!!<(!!upbow!(G,,4 |!<)!!mp! !>(!D,3) !>)!!pp!z | Z4 | 
+!ppp!"^ $2pizz."D,2 z2 | "^ $2arco"!p!!upbow!!<(!(G,,4- | G,,4 | !<)!!mf!!>(!G,,4 | G,,2)!>)!!pp! (G,2 | !<(!A,,2 (B,,^C,) | !<)!!mf!(D,2 G,2) | !>(!(A,2 A,,2) | D,3)!>)!!pp! z | 
+!p!(G,,/^F,,/G,,/F,,/) (G,,/F,,/G,,/F,,/) | (G,,/^F,,/G,,/A,,/) (B,,/A,,/B,,/C,/) | (D,/E,/^F,/G,/) (A,/B,/^C/^D/ | E) z3 | Z4 | 
+!mp!G,4- | G,2 !<(!C,2 | D,4 | !<)!!mf!G,4 | A,4 | D,2 G,2 | !>(!A,4 | [V:cb clef=tenor] !>)!!mp!D2  !mf!(B,2 | 
+A,2 B,2 | C2 D2 | !<(!E2 !tenuto!(^F!tenuto!^G) | A2) E2 | !<)!!ff!A4- | A2 E2 | 
+A4- | A2 E2 | A4- | A2 [K:Am clef=basso] E2 | A,3 z | Z6 | z2 !mf!D,2 | !>(!G,4 | !>)!!p!!<(!D,4 | 
+!<)!!mf!!>(!G,4 | !>)!!p!D,4- | D,4 | !<(!B,,4- | B,,4 | E,,4 | !<)!!ff!"_ $2l. v."A,,2 z2 | Z2 |]

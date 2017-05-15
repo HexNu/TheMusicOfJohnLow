@@ -342,7 +342,7 @@ c c2 c | B B2 B | ^A A2 A | B3 z | Z3 |
 %PAGE 8
 z3 !p!!<(! (B | (f>g f)^d | (B2!<)!!mf! g))(g |!>(! ff ef | B3) !>)!!p!z | Z3 | z3 !mf!(!open!A |
 %PAGE 9
-!open!!>(!e4- | e3)!>)!!pp! !mf!(!open!A | !open!!>(!e4- | e) !>)!!pp!z3 | Z4 |
+!open!!>(!e4- | e2)!>)!!pp! z !mf!(!open!A | !open!!>(!e4- | e) !>)!!pp!z3 | Z4 |
 %PAGE 10
 Z4 | !p!(A4- | A2 B2 | !<(!F2 ^A2 | !<)!!mf!B2) z2 |
 %PAGE 11
@@ -352,7 +352,7 @@ e) f2 d | (^c e) (d B) | !>(!A B B e | !>)!!mp!A3) z | z2 !mf!b2- | b4- | !<(!b2
 %PAGE 13
 !<)!!ff!e4- | e z3 | z !mf!!tenuto!(e2 !tenuto!e | !tenuto!e3) z | z !mp!!tenuto!(e2 !tenuto!e | !tenuto!e3) z | z !p!!tenuto!e2 z | Z |
 %PAGE 14
-Z | z2 !f!b2- | b z !>(!g2- | g z e2- | e z d2- | !>)!d z !p!^c2 | (^c2 d2- | d) z3 |
+Z | z2 !f!b2- | b z !>(!g2- | g z e2- | e z d2- | d !>)!!p! z ^c2 | (^c2 d2- | d) z3 |
 %PAGE 15
 Z9 |]
 %
@@ -379,14 +379,14 @@ z3 !p!!<(! (B | (^d>e d)B | (B2!<)!!mf! e))(e |!>(! ^dd ^cd | B3) !>)!!p!z | Z4 
 z3 !p!!+!(A | !+!!>(!e4- | e) !>)!!ppp!z3 | Z5 |
 %PAGE 10
 Z4 | !p!(F3 E | D4 | !<(!^C2 F2- | !<)!!mf!F2) z2 |
-%PAGE 11cd 
+%PAGE 11
 (^C2 D2 | E4- | !>(!E4- | !>)!!mp!E3) z | !mp!(f3 e | !<(!(d F) B g | e2 ^c2 | !<)!!mf!d2) ((A2 |
 %PAGE 12
 ^c) d2 B | (A ^c) (B E) | !>(!^C2 E2 | !>)!!mp!A,2) z2 | !mf!(E2 F2 | G2 A2 | !<(!B2 ^c ^d | e2 B2 |
 %PAGE 13
 !<)!!ff!E4- | E) z3 | z !mf!!tenuto!(E2 !tenuto!E | !tenuto!E3) z | z !mp!!tenuto!(E2 !tenuto!E | !tenuto!E3) z | z !p!!tenuto!E2 z | Z |
 %PAGE 14
-Z | z2 !f!B2- | B z !>(!G2- | G z E2- | E z D2- | !>)!D z !p!^C2 | (^C2 D2- | D) z3 |
+Z | z2 !f!B2- | B z !>(!G2- | G z E2- | E z D2- | D !>)!!p! z ^C2 | (^C2 D2- | D) z3 |
 %PAGE 15
 Z9 |]
 %
@@ -402,7 +402,7 @@ Z7 |
 %PAGE 4
 Z6 | !pp!!trill!!trill(!E,4- |
 %PAGE 5
-!<(!E,4- | E,4 !<)!| !sfz!"_ $2l. v."!trill)!A,,2 z2 | Z | !f!"_ $2l. v."A,,2 z2 | Z | D,2 E,2 |
+!<(!E,4- | E,4 !<)!| !sfz!"_ $2l. v."!trill)!A,,2 z2 | Z | !f!"_ $2l. v."A,,2 z2 | Z | !f!D,2 E,2 |
 %PAGE 6
 A,,4 | D,2 z2 | E, E,/>E,/ E, E, | !sfz!!mp!!<(!!trill!!trill(!(A,,4 | !<)!!f!"_ $2l. v."!trill)!A,,2) z2 | Z2 | 
 %PAGE 7
@@ -539,7 +539,7 @@ V:vlc clef=basso nm="Violoncellos" snm="Vlc"
 %PAGE 2
 A,,4 | Z | D,,2 E,,2 | A,,4 | B,,4 | E,,4 | A,,4 | A,,4 | !<(!F,,2 G,,2!<)! | 
 %PAGE 3
-!mf!C,4  | D,2 E,2 | A,,4 | B,,4 | E,2 [K:Am clef=tenor] z "^ $2arco"  !mf!!<(!(E | (B>c B)^G | !<)!!f!E2 c)(c |
+!mf!C,4  | D,2 E,2 | A,,4 | B,,4 | E,2 [K:Am clef=tenor] z "^ $2arco"  !mf!!<(!(E | (B>c B)^G | !<)!!f!(E2 c))(c |
 %PAGE 4
 BB AB | !>(!E3) !>)!!p!z | Z2 | z3 [K:Am clef=basso] !p!!<(!(C | !<)!!>(!B,3) !>)!z | z3 !p!E,- |
 %PAGE 5

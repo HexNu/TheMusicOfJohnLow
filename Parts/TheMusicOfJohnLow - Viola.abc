@@ -1,0 +1,49 @@
+%%deco sp 6 pf 20 0 0 sp
+%%deco niente 6 pf 20 0 0 niente
+
+%%setfont-1 Bookman-LightItalic 18
+%%setfont-2 Times-LightItalic 15
+%%titlefont Bookman-Demi 24
+%%headerfont Bookman-LightItalic 7
+%%footerfont Bookman-LightItalic 7
+%%composerfont Bookman-LightItalic 8
+
+%%header "The Music of John Low		"
+%%footer "	$P	"
+
+%staffnonote 0
+%%indent 0.7cm
+%%autoclef 0
+%%barnumbers 5
+%%measurebox 0
+%%staffsep 2.4cm
+%%scale 0.65
+
+%%abc-charset utf-8
+
+X:1
+T:The Music of John Low
+T:Vivace
+C:Håkan Lidén
+C:maj 2017
+Q:"Vivace    " 1/4=160
+M:C
+L:1/4
+K:Am
+V:vla clef=alto nm="Viola"
+!pp!(A,/C/A,/C/) (A,/C/A,/C/) | (A,/C/A,/C/) (A,/C/A,/C/) | (A,/C/A,/C/) (A,/C/A,/C/) | (A,/C/A,/C/) (A,/C/A,/C/) | 
+(A,/D/A,/D/) (A,/D/A,/D/) | (A,/C/A,/C/) (A,/C/A,/C/) | (^G,/B,/G,/B,/) (G,/B,/G,/B,/) | (A,/C/A,/C/) (A,/C/A,/C/) | (A,/B,/A,/B,/) (A,/B,/A,/B,/) | 
+(^G,/B,/G,/B,/) (G,/B,/G,/B,/) | (A,/C/A,/C/) (A,/C/A,/C/) |  (A,/C/A,/C/) (A,/C/A,/C/) | !<(!(A,/D/A,/D/) (B,/D/B,/D/)!<)! | !mf!(G,/C/G,/C/) (G,/C/G,/C/) | 
+(B,/D/B,/D/) (B,/D/B,/D/) | !<(!(A,/C/A,/C/) (A,/C/A,/C/) | !<)!(A,/!>(!B,/A,/B,/) (A,/B,/A,/B,/) | (^G,/B,/G,/B,/!>)!!p!G,) z | !mf!!<(!!tenuto!E, !tenuto!E,2 !tenuto!E, | 
+!<)!!f!!tenuto!E,!tenuto!E,2!tenuto!E, | !tenuto!E, !tenuto!E,2 !tenuto!!upbow!E, | !>(!E,3 !>)!!p!z | Z2 | z3 !p!!<(!(A, | !<)!!>(!E,3) !>)!z | z3 !p!B,- | !<(!B, (!tenuto!B,2 !tenuto!B,) | 
+B,!<)! !f!!tenuto!E, !tenuto!E, (E, | (E>F) (EC) | (A,2 E))(E | (FE) (!tenuto!D!tenuto!G) | E3) (E | DD B,E | 
+CC A,C | B,2 (A,B,) |!>(! E,3) !>)!(E |!mf!!<(! (E>F) (EC) | (A,2 E))(E | (FE D)G |
+!<)!!ff! E3) (E | DD B,D | C2 (EG) | ^F>F B,^D | E3) z | Z |!p!!<(! (!upbow!(D2 C2) |!<)!!mf! !>(!B,3) !>)!!pp!z | 
+Z6 | !pp!!<(!!upbow!(_B,4 |!<)!!mp! !>(!A,3) !>)!!pp!z | Z5 | !p!!upbow!((D,4- | D,2 E,2) | !<(!D,4 | D,3)!<)!!mf! z | 
+!pp!!<(!!upbow!(A,4 | !<)!!mf!(^F,2 G,2) | !>(!(G,2 E,2) | ^F,3)!>)!!pp! z | Z2 |!p! (^F,/G,/A,/B,/) (^C/^D/E/^F/) | 
+!<(!(G/^F/G/A/) (B/E/F/G/ | !<)!!mf!A) z3 | Z | z2 z/!upbow!!mf!!>(!(B/A/G/) | (^F/E/D/C/) (B,/A,/G,/^F,/ | !>)!!p!G,) z3 | 
+Z6 | !mf!((D,^F,) (A,B, | C) !downbow!E2 D | (CA,) (DF) | !<(!EA ^GB | 
+A)((E ^GB) | !<)!!ff!(A^G) (AB) | dc A^G | B3) (B | !>(!(BA) (=GE) | !>)!!f!A3) (B | 
+!>(!(BA) (GE) | !>)!!mf!A3)[K:Am clef=treble] !f!(B | !<(!BA ce | !<)!!ff!(g^f) (eg) | (^fA2)) (e | !>(!(e^F2) d | 
+(c E2)) [K:Am clef=alto] (B | (AC) (G^F) | !>)!!mf!E(D c3/2!tenuto!^F/) | (^F2 !>(!G2- | !>)!!p!G2)) !<(!^F2 | !<)!!mf!(^F2 !>(!D2- | !>)!!p!D2) D2 | 
+D4 | !<(!^D4- | D4 | E4 | !<)!!ff!"_ $2l. v."E2 z2 | Z2 |]

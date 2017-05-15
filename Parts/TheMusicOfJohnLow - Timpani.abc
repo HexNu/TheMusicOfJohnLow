@@ -1,0 +1,37 @@
+%%deco sp 6 pf 20 0 0 sp
+%%deco niente 6 pf 20 0 0 niente
+
+%%setfont-1 Bookman-LightItalic 18
+%%setfont-2 Times-LightItalic 15
+%%titlefont Bookman-Demi 24
+%%headerfont Bookman-LightItalic 7
+%%footerfont Bookman-LightItalic 7
+%%composerfont Bookman-LightItalic 8
+
+%%header "The Music of John Low		"
+%%footer "	$P	"
+
+%staffnonote 0
+%%indent 0.7cm
+%%autoclef 0
+%%barnumbers 5
+%%measurebox 0
+%%scale 0.65
+
+%%abc-charset utf-8
+
+X:1
+T:The Music of John Low
+T:Vivace
+C:Håkan Lidén
+C:maj 2017
+Q:"Vivace    " 1/4=160
+M:C
+L:1/4
+K:Am
+V:tmp1 clef=basso nm="Timpani"
+Z26 | !pp!!trill!!trill(!E,4- | !<(!E,4- | E,4 !<)!| !sfz!"_ $2l. v."!trill)!A,,2 z2 | Z | !f!"_ $2l. v."A,,2 z2 | Z | 
+!f!D,2 E,2 | A,,4 | D,2 z2 | E, E,/>E,/ E, E, | !sfz!!mp!!<(!!trill!!trill(!(A,,4 | !<)!!f!"_ $2l. v."!trill)!A,,2) z2 | Z5 | 
+!ff!!trill!!trill(!E,2- !>(!E,2-  | !>)!!p!"_ $2l. v."!trill)!E,2 z2 | Z3 | !trill!y!trill(!!ppp!!<(!E,4- | E,4- !<)!|!mf!!>(!E,4- | E,2- !>)!!pppp!!trill)!E,2 | Z4 | 
+!trill!!trill(!!pp!D,4- | D,4- | D,4- | !trill)!"_ $2l. v."D, z3 | Z36 | !f!!trill!!trill(!E,4- | E,4- | !>(!E,4- | E,4- | E,4- | 
+!>)!!trill)!E,2 !p!D,2 | G,,4  | D,4 | G,,4 | Z4 | !p!!<(!!trill!!trill(!E,4!trill)! | !<)!!ff!"_ $2l. v."A,,2 z2 | Z2 |]

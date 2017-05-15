@@ -1,0 +1,43 @@
+%%deco sp 6 pf 20 0 0 sp
+%%deco niente 6 pf 20 0 0 niente
+
+%%setfont-1 Bookman-LightItalic 18
+%%setfont-2 Times-LightItalic 15
+%%titlefont Bookman-Demi 24
+%%headerfont Bookman-LightItalic 7
+%%footerfont Bookman-LightItalic 7
+%%composerfont Bookman-LightItalic 8
+
+%%header "The Music of John Low		"
+%%footer "	$P	"
+
+%staffnonote 0
+%%indent 0.7cm
+%%autoclef 0
+%%barnumbers 5
+%%measurebox 0
+%%scale 0.65
+
+%%abc-charset utf-8
+
+X:1
+T:The Music of John Low
+T:Vivace
+C:Håkan Lidén
+C:maj 2017
+Q:"Vivace    " 1/4=160
+M:C
+L:1/4
+K:Bm
+V:cl1 nm="Clarinett 2 (Bb)"
+Z17 | z2 !mf!(^A,/C/A,/C/) |!<(! (^A,/C/A,/C/) (A,/C/A,/C/) |!<)!!f! (^A,/C/A,/C/) (B,/D/B,/D/) | (^A,/C/A,/C/) (A,/C/A,/C/) |
+!>(! (^A,/C/A,/C/ A,)!>)!!p! z |!<(! ^A4- | A2 !<)!!mf!!>(!(B2 | ^A3)!>)!!pp! z | z3 !p!!<(!^A- | !<)!!>(!A3 !>)!z | Z2 | 
+!f!(B,/D/B,/D/) (B,/D/B,/D/) | (B,/D/B,/D/) (B,/D/B,/D/) | (B,/E/B,/E/) (C/E/C/E/) | (A,/D/A,/D/) (A,/D/A,/D/) | 
+(C/E/C/E/) (^A,/C/A,/C/) | (B,/D/B,/D/ B,) z | (C/E/C/E/) (C/^E/C/B,/) | !>(!(^A,/C/A,/C/ A,)!>)! z |!mf!!<(! (B,/D/B,/D/) (B,/D/B,/D/) | 
+(B,/D/B,/D/) (B,/D/B,/D/) | (B,/E/B,/E/) (C/E/C/E/) |!<)!!ff! (A,/D/A,/D/) (A,/D/A,/D/) | (B,/D/B,/D/) (A,/C/A,/C/) | 
+(A,/D/A,/D/) (B,/D/B,/D/ | B,) z (B,/C/B,/C/) | (^A,/C/A,/C/ A,) z | !p!!<(!F4- | F4- |!<)!!mf! !>(!F4- | 
+F3 !>)!!pp!z | Z4 | !pp!!<(!(^D4 | E4- |!<)!!mp! !>(! E4- | E3) !>)!!pp!z| Z12 | 
+z !mf!(c2 B | (AC) Fd | !<(!(cB) (^GB) | !<)!!f!A)((f ^d2) | e^g (af | ^dB) (F^D | 
+!>(!E)(CB,A, | !>)!!mf!^G,3)) z | Z3 | z2 !mp!(a/^g/f/e/ | ^d/B/A/F/ ^D/B,/A,/B,/ | 
+^G,/B,/E/^G/ B/e/^g/a/ | b/c'/b/a/ f/^d/B/d/ | e) z3 | Z2 | !mf!!<(!(d2 c2 | B2 ^A2 | 
+!<)!!ff!B4- | B) z3 | z !mf!!tenuto!(A2 !tenuto!A | !tenuto!A3) z | z !mp!!tenuto!(F2 !tenuto!F | !tenuto!F3) z | Z19 |]

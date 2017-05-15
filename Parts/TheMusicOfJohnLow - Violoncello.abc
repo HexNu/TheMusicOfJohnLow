@@ -1,0 +1,47 @@
+%%deco sp 6 pf 20 0 0 sp
+%%deco niente 6 pf 20 0 0 niente
+
+%%setfont-1 Bookman-LightItalic 18
+%%setfont-2 Times-LightItalic 15
+%%titlefont Bookman-Demi 24
+%%headerfont Bookman-LightItalic 7
+%%footerfont Bookman-LightItalic 7
+%%composerfont Bookman-LightItalic 8
+
+%%header "The Music of John Low		"
+%%footer "	$P	"
+
+%staffnonote 0
+%%indent 0.7cm
+%%autoclef 0
+%%barnumbers 5
+%%measurebox 0
+%%staffsep 2.4cm
+%%scale 0.65
+
+%%abc-charset utf-8
+
+X:1
+T:The Music of John Low
+T:Vivace
+C:Håkan Lidén
+C:maj 2017
+Q:"Vivace    " 1/4=160
+M:C
+L:1/4
+K:Am
+V:vlc clef=basso nm="Violoncello"
+!pp!"^ $2pizz."A,,4 | Z | A,,4 | Z | A,,4 | Z | D,,2 E,,2 | A,,4 | B,,4 | E,,4 | 
+A,,4 | A,,4 | !<(!F,,2 G,,2!<)! | !mf!C,4  | D,2 E,2 | A,,4 | B,,4 | E,2 [K:Am clef=tenor] z "^ $2arco"  !mf!!<(!(E | (B>c B)^G | 
+!<)!!f!(E2 c))(c | BB AB | !>(!E3) !>)!!p!z | Z2 | z3 [K:Am clef=basso] !p!!<(!(C | !<)!!>(!B,3) !>)!z | z3 !p!E,- | 
+!<(!E, (!tenuto!E,2 !tenuto!E,)  | !tenuto!E,!<)! !f!!tenuto!E,, !tenuto!E,, !tenuto!E,, | (A,,2 !downbow!A,2- | A,2 G,2 | F,2 G,2 | C,3) (C, | 
+D,2 E,^G,, | !upbow!A,, F,2 E, | D,2 ^D,2 | !>(!!tenuto!E,)!tenuto!=D, !tenuto!C,!>)!!tenuto!B,, |!mf!!<(! (A,,2 !downbow!A,2- | A,2 A,2 | 
+D,2 G,2 |!<)!!ff! C,3) (C, | F,2 G,2 | (C,B,,) A,,2 | B,,3 B,, | E,,3) z | Z |
+!p!!<(! (!upbow!(E,2 A,2) |!<)!!mf! !>(!E,3) !>)!!pp!z | Z6 | !pp!!<(!!upbow!(G,,4 |!<)!!mp! !>(!D,3) !>)!!pp!z | Z4 | 
+!ppp!"^ $2pizz."D,2 z2 | "^ $2arco"!p!!upbow!!<(!(G,,4- | G,,4 | !<)!!mf!!>(!G,,4 | G,,2)!>)!!pp! (!upbow!G,2 | !<(!A,,2 (B,,^C,) | !<)!!mf!(D,2 G,2) | 
+!>(!(A,2 A,,2) | D,3)!>)!!pp! z | !p!(G,,/^F,,/G,,/F,,/) (G,,/F,,/G,,/F,,/) | (G,,/^F,,/G,,/A,,/) (B,,/A,,/B,,/C,/) | (D,/E,/^F,/G,/) (A,/B,/^C/^D/ | 
+E) z3 | Z3 | z2[V:vlc clef=treble] !mf!(D2 | d3 c | !<(!(BG) !tenuto!(c!tenuto!e) | d2 !tenuto!(e!tenuto!c) | 
+!<)!!f!B2) ((dB | A) !downbow!B2 G | (^FA) (GE) | !>(!DE EA | !>)!!mf!D3) z |
+[V:vlc clef=tenor] !mf!(A,2 B,2 | C2 D2 | !<(!E2 !tenuto!(^F!tenuto!^G) | A2) E2 | !<)!!ff!A4- | A2 E2 | A4- | A2 E2 | 
+A4- | A2 [V:vlc clef=basso] E2 |  A,3 z | Z6 | z2 !mf!D,2 | !>(!G,4 | !>)!!p!!<(!D,4 | 
+!<)!!mf!!>(!G,4 | !>)!!p!A,4- | A,2 C2 | !<(!B,4- | B,4- | B,4 | !<)!!ff!"_ $2l. v."A,2 z2 | Z2 |]

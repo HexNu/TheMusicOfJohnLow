@@ -30,7 +30,7 @@ Q:"Vivace    " 1/4=160
 M:C
 L:1/4
 K:Am
-V:fl1 nm="Flute 2 (& Piccolo)"
+V:fl2 nm="Flute 2 (& Piccolo)"
 Z17 | z3 !mf!!<(!(e | (^g>a g)e | !<)!!f!(e2 a))(a | ^gg ^fg |
 !>(! e3)!>)!!p! z | Z6 | z3 !f!(e | (c'>d') (c'e) | (c2 a))(c' | (d'c') bb | 
 c'3) (c' | bb ^gb | aa fa | ^g2 (^fg) |!>(! e3) !>)!(e |!mf!!<(! (c'>d') (c'e) | 
